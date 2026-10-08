@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><rect width="600" height="600" fill="#F0EAE0"/>
+<path d="M250 150h70l40 30h50v30h-60l-10 20h-90z" fill="#0F5C5A"/><rect x="262" y="230" width="66" height="30" fill="#0A4240"/>
+<path d="M240 260h110c15 0 25 10 25 25v215c0 15-10 25-25 25H240c-15 0-25-10-25-25V285c0-15 10-25 25-25z" fill="#fff" stroke="#A8E3D9" stroke-width="6"/>
+<rect x="235" y="330" width="120" height="110" rx="10" fill="#A8E3D9"/><text x="300" y="565" font-family="sans-serif" font-size="20" fill="#5C686A" text-anchor="middle">Sample image — replace with your photo</text></svg>

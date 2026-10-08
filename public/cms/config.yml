@@ -1,0 +1,540 @@
+# =============================================================================
+# Evaclear website editor (Sveltia CMS) — https://www.evacleartradingenterprise.com/cms/
+#
+# ONE-TIME: change "YOUR-GITHUB-USERNAME/evaclear-website" below to your GitHub repository.
+# Everything else is ready. See README section 16 ("Website editor").
+# =============================================================================
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/evaclear-website
+  branch: main
+  # "[skip netlify]" saves your edits without publishing straight away, so a batch of edits
+  # costs one deploy. Publish with "Publish website now" in the Staff dashboard (/admin → Website).
+  commit_messages:
+    create: 'Add {{collection}} “{{slug}}” [skip netlify]'
+    update: 'Update {{collection}} “{{slug}}” [skip netlify]'
+    delete: 'Delete {{collection}} “{{slug}}” [skip netlify]'
+    uploadMedia: 'Upload “{{path}}” [skip netlify]'
+    deleteMedia: 'Delete “{{path}}” [skip netlify]'
+
+site_url: https://www.evacleartradingenterprise.com
+display_url: https://www.evacleartradingenterprise.com
+logo:
+  src: /icons/icon-192.png
+
+# Pictures you upload are saved here, converted to WebP and resized for fast loading.
+media_folder: public/images/uploads
+public_folder: /images/uploads
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 1600
+          height: 1600
+        svg:
+          optimize: true
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  # =========================================================================
+  # PRODUCTS — one file per product in content/products
+  # =========================================================================
+  - name: products
+    label: Products & packs
+    label_singular: Product
+    description: Everything in the shop. Change prices under "Sizes & prices". Untick "Show on website" to hide a product without deleting it.
+    folder: content/products
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{id}}'
+    identifier_field: name
+    summary: '{{name}} · {{category}}'
+    sortable_fields: [order, name, dateAdded, popularity]
+    view_groups:
+      - { label: Type, field: type }
+      - { label: Category, field: category }
+    fields:
+      - { name: published, label: Show on website, widget: boolean, default: true }
+      - { name: name, label: Product name, widget: string }
+      - name: id
+        label: Web address name (ID)
+        widget: string
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Lower-case letters, numbers and dashes only, e.g. floor-cleaner']
+        hint: 'Used in the page address: /products/<ID>. Choose it once and do not change it after the product is live.'
+      - name: type
+        label: Type
+        widget: select
+        default: product
+        options:
+          - { label: Single product, value: product }
+          - { label: Kit / pack / bundle (several products together), value: bundle }
+      - { name: tagline, label: Short tagline, widget: string, required: false, hint: 'e.g. One soap for the whole house' }
+      - { name: shortDescription, label: Short description (shown on product cards), widget: text, required: false }
+      - { name: description, label: Full description, widget: text, required: false }
+      - name: category
+        label: Main category
+        widget: select
+        options: &category_options
+          - { label: Laundry, value: laundry }
+          - { label: Dishwashing, value: dishwashing }
+          - { label: Surface cleaners, value: surface-cleaners }
+          - { label: Floor cleaners, value: floor-cleaners }
+          - { label: Bathroom, value: bathroom }
+          - { label: Hand & body care, value: hand-care }
+          - { label: Air care, value: air-care }
+          - { label: Kits & packs, value: kits }
+          - { label: Accessories, value: accessories }
+      - name: alsoIn
+        label: Also show in these categories
+        widget: select
+        multiple: true
+        required: false
+        options: *category_options
+      - name: collections
+        label: Collections
+        widget: select
+        multiple: true
+        required: false
+        options: &collection_options
+          - { label: Best sellers, value: best-sellers }
+          - { label: Home starter packs, value: starter-packs }
+          - { label: Business starter packs, value: business-packs }
+          - { label: Bundles & save, value: bundles }
+          - { label: Refills, value: refills }
+          - { label: Accessories, value: accessories }
+      - name: badge
+        label: Badge
+        widget: select
+        required: false
+        hint: Leave empty for no badge.
+        options:
+          - Best Seller
+          - Most Loved
+          - New
+          - Limited
+          - Sale
+      - name: images
+        label: Photos
+        label_singular: Photo
+        widget: list
+        hint: The first photo is the main one. Square or 4:3 photos on a plain background look best.
+        field: { name: image, label: Photo, widget: image }
+      - name: variants
+        label: Sizes & prices
+        label_singular: Size
+        widget: list
+        min: 1
+        summary: '{{fields.scent}} {{fields.size}} — GH₵{{fields.price}}'
+        fields:
+          - { name: size, label: Size, widget: string, hint: 'e.g. 1L, 5L, 500ml, Kit of 6' }
+          - { name: scent, label: Scent / colour, widget: string, required: false, hint: 'Leave empty if there is only one' }
+          - { name: price, label: Price (GH₵), widget: number, value_type: float, min: 0, step: 0.5 }
+          - { name: image, label: Photo for this size (optional), widget: image, required: false }
+          - name: id
+            label: Size code
+            widget: string
+            required: false
+            hint: 'Short unique code, e.g. fc-5l. Leave empty for new sizes and one is made for you. Do not change existing codes (they are used in carts and packs).'
+      - name: includes
+        label: Products in this pack (packs only)
+        label_singular: Item
+        widget: list
+        required: false
+        summary: '{{fields.qty}} × {{fields.productId}} ({{fields.variantId}})'
+        fields:
+          - { name: productId, label: Product, widget: relation, collection: products, value_field: id, search_fields: [name, id], display_fields: [name] }
+          - { name: variantId, label: Size code of that product, widget: string, hint: 'Copy the size code from that product, e.g. fc-1l' }
+          - { name: qty, label: Quantity, widget: number, value_type: int, min: 1, default: 1 }
+      - { name: usedFor, label: Use it for, widget: list, required: false, field: { name: item, label: Use, widget: string } }
+      - { name: benefits, label: Benefits, widget: list, required: false, field: { name: item, label: Benefit, widget: string } }
+      - { name: howToUse, label: How to use (steps), widget: list, required: false, field: { name: step, label: Step, widget: string } }
+      - name: dilution
+        label: Dilution guide
+        widget: list
+        required: false
+        summary: '{{fields.use}}: {{fields.ratio}}'
+        fields:
+          - { name: use, label: For, widget: string }
+          - { name: ratio, label: How much, widget: string }
+      - { name: ingredients, label: Ingredients, widget: text, required: false }
+      - { name: safety, label: Safety information, widget: text, required: false }
+      - name: faqs
+        label: Questions & answers
+        widget: list
+        required: false
+        summary: '{{fields.q}}'
+        fields:
+          - { name: q, label: Question, widget: string }
+          - { name: a, label: Answer, widget: text }
+      - name: crossSell
+        label: '"You might also need" products'
+        widget: relation
+        collection: products
+        value_field: id
+        search_fields: [name, id]
+        display_fields: [name]
+        multiple: true
+        required: false
+      - { name: order, label: Display order, widget: number, value_type: int, default: 500, hint: 'Lower numbers show first in the shop (e.g. 10, 20, 30).' }
+      - { name: popularity, label: Best-seller rank, widget: number, value_type: int, default: 50, hint: '1 = most popular. Used for "Sort by best selling".' }
+      - { name: lineupOrder, label: Home page line-up position, widget: number, value_type: int, required: false, hint: 'Optional. Products with a number appear in the home page line-up, in this order.' }
+      - { name: dateAdded, label: Date added, widget: datetime, format: 'YYYY-MM-DD', time_format: false, hint: 'Used for "Sort by newest".' }
+
+  # =========================================================================
+  # BLOG — one file per article in content/articles
+  # =========================================================================
+  - name: articles
+    label: Cleaning tips (blog)
+    label_singular: Article
+    folder: content/articles
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{fields.slug}}'
+    identifier_field: title
+    summary: '{{title}} · {{date}}'
+    sortable_fields: [date, title]
+    thumbnail: image
+    fields:
+      - { name: published, label: Show on website, widget: boolean, default: true }
+      - { name: title, label: Title, widget: string }
+      - name: slug
+        label: Web address name
+        widget: string
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Lower-case letters, numbers and dashes only']
+        hint: 'The page will be /tips/<this name>, e.g. harmattan-dust-cleaning-routine'
+      - name: category
+        label: Category
+        widget: select
+        options: [Kitchen, Laundry, Bathroom, Home Care, Refill Living]
+      - { name: date, label: Date, widget: datetime, format: 'YYYY-MM-DD', time_format: false }
+      - { name: excerpt, label: Summary (shown on the blog page), widget: text }
+      - { name: image, label: Main photo, widget: image }
+      - name: body
+        label: Article
+        widget: markdown
+        hint: 'Use "Heading 2" for section titles and bullet lists for tips. Bold and links are shown as plain text.'
+        buttons: [heading-two, bulleted-list, numbered-list]
+        editor_components: []
+      - { name: readMinutes, label: Minutes to read, widget: number, value_type: int, required: false, hint: 'Leave empty to work it out automatically.' }
+
+  # =========================================================================
+  # BUSINESS SETTINGS (single files in src/data)
+  # =========================================================================
+  - name: settings
+    label: Business details & settings
+    editor:
+      preview: false
+    files:
+      - name: site
+        label: Business details, contact & payments
+        file: src/data/site.json
+        format: json
+        fields:
+          - { name: name, label: Short name, widget: string }
+          - { name: legalName, label: Company name, widget: string }
+          - { name: siteUrl, label: Website address, widget: string, hint: 'e.g. https://www.evacleartradingenterprise.com (no slash at the end)' }
+          - { name: tagline, label: Tagline, widget: string }
+          - { name: taglineAlternatives, label: Other taglines (not shown), widget: list, required: false, field: { name: t, label: Tagline, widget: string } }
+          - { name: defaultDescription, label: Description for Google, widget: text, hint: 'About 150 characters.' }
+          - { name: productBrand, label: Product brand name, widget: string }
+          - name: announcement
+            label: Top banner
+            widget: object
+            fields:
+              - { name: text, label: Text, widget: string }
+              - { name: linkText, label: Link text, widget: string }
+              - { name: link, label: Link, widget: string }
+          - name: whatsapp
+            label: WhatsApp (orders)
+            widget: object
+            fields:
+              - { name: number, label: Number for WhatsApp links, widget: string, hint: 'International format without + or spaces, e.g. 233256116151' }
+              - { name: display, label: Number as shown, widget: string, hint: 'e.g. +233 25 611 6151' }
+              - { name: greeting, label: Opening message, widget: string }
+          - { name: phone, label: Main phone number, widget: string, hint: 'Used for Google and the Call button.' }
+          - { name: phones, label: All phone numbers shown, widget: list, field: { name: number, label: Number, widget: string } }
+          - { name: email, label: Email, widget: string }
+          - name: address
+            label: Address
+            widget: object
+            fields:
+              - { name: street, label: Street, widget: string }
+              - { name: area, label: Area, widget: string }
+              - { name: city, label: City, widget: string }
+              - { name: region, label: Region, widget: string }
+              - { name: gps, label: Digital address (GhanaPost GPS), widget: string }
+              - { name: country, label: Country, widget: string }
+          - { name: openingHours, label: Opening hours, widget: string }
+          - { name: mapEmbedQuery, label: Map search for the contact page, widget: string }
+          - name: social
+            label: Social media links
+            widget: object
+            fields:
+              - { name: instagram, label: Instagram, widget: string, required: false }
+              - { name: facebook, label: Facebook, widget: string, required: false }
+              - { name: tiktok, label: TikTok, widget: string, required: false }
+          - { name: popularSearches, label: Popular searches (search box), widget: list, field: { name: s, label: Search, widget: string } }
+          - name: momo
+            label: Mobile Money payments
+            widget: object
+            fields:
+              - { name: enabled, label: Offer MoMo at checkout, widget: boolean }
+              - { name: network, label: Network, widget: string }
+              - { name: number, label: Wallet number, widget: string }
+              - { name: display, label: Number as shown, widget: string }
+              - { name: accountName, label: Account name, widget: string }
+              - { name: ussd, label: USSD code, widget: string }
+          - name: bank
+            label: Bank account (transfers, deposits, cheques, Visa)
+            widget: object
+            fields:
+              - { name: enabled, label: Offer bank payment at checkout, widget: boolean }
+              - { name: accountName, label: Account name, widget: string }
+              - { name: bankName, label: Bank, widget: string }
+              - { name: branch, label: Branch, widget: string }
+              - { name: accountNumber, label: Account number, widget: string }
+          - name: claims
+            label: Marketing claims you confirm are true
+            widget: object
+            hint: Only tick claims you can prove. Unticked claims are hidden.
+            fields:
+              - { name: gentleOnSkin, label: Gentle on skin, widget: boolean }
+              - { name: toughOnStains, label: Tough on stains, widget: boolean }
+              - { name: locallyMade, label: Made in Ghana, widget: boolean }
+              - { name: valueConcentrates, label: Great value concentrates, widget: boolean }
+              - { name: lessPlastic, label: Refills mean less plastic, widget: boolean }
+              - { name: safeAroundKids, label: Safe around children when used as directed, widget: boolean }
+              - { name: previewUnconfirmed, label: Show ALL claims (preview only — keep unticked), widget: boolean }
+          - name: notifications
+            label: Order alerts
+            widget: object
+            fields:
+              - { name: whatsappAlerts, label: Send order copies to company WhatsApp automatically, widget: boolean }
+          - name: newsletter
+            label: Newsletter sign-up
+            widget: object
+            fields:
+              - { name: endpoint, label: Form address (optional), widget: string, required: false, hint: 'e.g. a Formspree or Mailchimp form URL. Empty = sign-ups go to WhatsApp.' }
+          - name: forms
+            label: Contact & wholesale forms
+            widget: object
+            fields:
+              - { name: contactEndpoint, label: Contact form address (optional), widget: string, required: false }
+              - { name: wholesaleEndpoint, label: Wholesale form address (optional), widget: string, required: false }
+          - name: app
+            label: Android app
+            widget: object
+            fields:
+              - { name: playStoreUrl, label: Google Play link, widget: string, required: false, hint: 'Shows a "Get the app" button in the footer when filled in.' }
+
+      - name: delivery
+        label: Delivery zones & fees
+        file: src/data/delivery.json
+        format: json
+        fields:
+          - { name: currency, label: Currency, widget: hidden, default: GHS }
+          - { name: homeArea, label: Home area, widget: string, hint: 'Where free delivery applies, e.g. Kumasi' }
+          - { name: freeDeliveryThreshold, label: Free delivery above (GH₵), widget: number, value_type: int, min: 0 }
+          - name: zones
+            label: Delivery zones
+            label_singular: Zone
+            widget: list
+            summary: '{{fields.name}} — GH₵{{fields.fee}}'
+            fields:
+              - { name: id, label: Code, widget: string, hint: 'Short code, e.g. kumasi' }
+              - { name: name, label: Name shown at checkout, widget: string }
+              - { name: fee, label: Fee (GH₵), widget: number, value_type: int, min: 0 }
+              - { name: freeAboveThreshold, label: Free above the threshold, widget: boolean, default: false }
+              - { name: estimate, label: Delivery time, widget: string, hint: 'e.g. Same or next working day' }
+          - name: pickup
+            label: Pickup
+            widget: object
+            fields:
+              - { name: enabled, label: Offer pickup, widget: boolean }
+              - { name: name, label: Name, widget: string }
+              - { name: fee, label: Fee (GH₵), widget: number, value_type: int, min: 0 }
+              - { name: estimate, label: When ready, widget: string }
+              - { name: address, label: Pickup address, widget: string }
+
+      - name: collections
+        label: Shop sections (collection pages)
+        file: src/data/collections.json
+        format: json
+        fields:
+          - name: collections
+            label: Sections
+            label_singular: Section
+            widget: list
+            summary: '{{fields.title}} (/collections/{{fields.slug}})'
+            fields:
+              - { name: slug, label: Web address name, widget: string, hint: 'Page is /collections/<this>' }
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: isCategory, label: Show as a category filter, widget: boolean, default: false, required: false }
+              - name: match
+                label: Which products appear
+                widget: object
+                hint: Choose ONE of these.
+                fields:
+                  - { name: all, label: All products, widget: boolean, default: false, required: false }
+                  - { name: collection, label: Products in collection, widget: select, required: false, options: *collection_options }
+                  - { name: category, label: Products in category, widget: select, required: false, options: *category_options }
+
+      - name: navigation
+        label: Menus
+        file: src/data/navigation.json
+        format: json
+        fields:
+          - name: shop
+            label: Shop menu
+            widget: object
+            fields:
+              - name: featured
+                label: Featured links
+                widget: list
+                fields: &link
+                  - { name: label, label: Text, widget: string }
+                  - { name: to, label: Link, widget: string, hint: 'A page on this site, e.g. /shop or /collections/laundry' }
+              - { name: categories, label: Category links, widget: list, fields: *link }
+              - name: promos
+                label: Promo tiles
+                widget: list
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: string }
+                  - { name: to, label: Link, widget: string }
+                  - { name: image, label: Photo, widget: image }
+          - { name: learn, label: Learn menu, widget: list, fields: *link }
+          - { name: rewards, label: Rewards menu, widget: list, fields: *link }
+          - name: footer
+            label: Footer links
+            widget: object
+            fields:
+              - { name: Shop, label: Shop column, widget: list, fields: *link }
+              - { name: Learn, label: Learn column, widget: list, fields: *link }
+              - { name: Support, label: Support column, widget: list, fields: *link }
+
+      - name: faqs
+        label: Help centre questions
+        file: src/data/faqs.json
+        format: json
+        fields:
+          - name: groups
+            label: Topics
+            label_singular: Topic
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - { name: id, label: Code, widget: string }
+              - { name: title, label: Topic, widget: string }
+              - name: items
+                label: Questions
+                widget: list
+                summary: '{{fields.q}}'
+                fields:
+                  - { name: q, label: Question, widget: string }
+                  - { name: a, label: Answer, widget: text }
+
+      - name: reviews
+        label: Product reviews
+        file: src/data/reviews.json
+        format: json
+        fields:
+          - name: reviews
+            label: Reviews
+            label_singular: Review
+            widget: list
+            hint: Only publish real reviews from real customers, with their permission.
+            summary: '{{fields.name}} — {{fields.rating}}★ {{fields.title}}'
+            fields:
+              - { name: productId, label: Product, widget: relation, collection: products, value_field: id, search_fields: [name], display_fields: [name] }
+              - { name: name, label: Customer name, widget: string }
+              - { name: location, label: Town, widget: string, required: false }
+              - { name: rating, label: Stars, widget: number, value_type: int, min: 1, max: 5, default: 5 }
+              - { name: title, label: Title, widget: string }
+              - { name: body, label: Review, widget: text }
+              - { name: date, label: Date, widget: datetime, format: 'YYYY-MM-DD', time_format: false }
+              - { name: sample, label: Sample (not real — marked as sample), widget: boolean, default: false }
+
+      - name: testimonials
+        label: Home page testimonials
+        file: src/data/testimonials.json
+        format: json
+        fields:
+          - name: testimonials
+            label: Testimonials
+            widget: list
+            hint: Only publish real customer words, with their permission.
+            summary: '{{fields.name}} — {{fields.headline}}'
+            fields:
+              - { name: headline, label: Headline, widget: string }
+              - { name: quote, label: Quote, widget: text }
+              - { name: name, label: Name, widget: string }
+              - { name: location, label: Town, widget: string, required: false }
+              - { name: image, label: Customer photo, widget: image, required: false }
+              - { name: product, label: Product name, widget: string, required: false }
+              - { name: productImage, label: Product photo, widget: image, required: false }
+              - { name: sample, label: Sample (not real), widget: boolean, default: false }
+
+      - name: press
+        label: Partners & press
+        file: src/data/press.json
+        format: json
+        fields:
+          - name: trustedBy
+            label: Trusted by (logo strip)
+            widget: list
+            fields:
+              - { name: label, label: Name, widget: string }
+              - name: kind
+                label: Icon
+                widget: select
+                options: [store, market, hotel, school, office, media, community]
+          - name: quotes
+            label: Press quotes
+            widget: list
+            required: false
+            fields:
+              - { name: source, label: Source, widget: string }
+              - { name: quote, label: Quote, widget: text }
+              - { name: sample, label: Sample (not real), widget: boolean, default: false }
+
+      - name: stockists
+        label: Where to buy (stockists)
+        file: src/data/stockists.json
+        format: json
+        fields:
+          - name: stockists
+            label: Stockists
+            label_singular: Stockist
+            widget: list
+            summary: '{{fields.name}} — {{fields.city}}'
+            fields:
+              - { name: name, label: Shop name, widget: string }
+              - { name: type, label: Type, widget: string, hint: 'e.g. Shop, Supermarket, Market stall' }
+              - { name: address, label: Address, widget: string }
+              - { name: area, label: Area, widget: string }
+              - { name: city, label: City, widget: string }
+              - { name: region, label: Region, widget: string }
+              - { name: phone, label: Phone, widget: string, required: false }
+              - { name: mapQuery, label: Google Maps search, widget: string, required: false }
+
+      - name: admin
+        label: Staff dashboard links (technical)
+        file: src/data/admin.json
+        format: json
+        fields:
+          - { name: githubRepo, label: GitHub repository, widget: string, required: false, hint: 'owner/name, e.g. evaclear/evaclear-website' }
+          - { name: netlifySiteName, label: Netlify site name, widget: string, required: false, hint: 'The name in your Netlify address, e.g. evaclear for evaclear.netlify.app' }
+          - { name: netlifySiteId, label: Netlify site ID, widget: string, required: false, hint: 'Netlify → Site configuration → Site details → Site ID. Shows the live publish status.' }

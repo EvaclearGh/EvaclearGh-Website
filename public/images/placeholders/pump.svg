@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><rect width="600" height="600" fill="#F0EAE0"/>
+<rect x="285" y="120" width="20" height="300" rx="8" fill="#0F5C5A"/><path d="M220 110h140v30H220z" fill="#0A4240"/><path d="M200 110h40v20h-40z" fill="#0F5C5A"/>
+<rect x="250" y="300" width="90" height="70" rx="12" fill="#A8E3D9"/><rect x="260" y="370" width="70" height="40" rx="8" fill="#0F5C5A"/><text x="300" y="565" font-family="sans-serif" font-size="20" fill="#5C686A" text-anchor="middle">Sample image — replace with your photo</text></svg>
