@@ -1,0 +1,67 @@
+{
+  "order": 130,
+  "id": "liquid-soap-bulk-refill",
+  "type": "product",
+  "name": "Multipurpose Liquid Soap — 25L Bulk Refill",
+  "tagline": "Lowest price per litre",
+  "shortDescription": "25L jerrycan for big families, shops, schools and resellers.",
+  "description": "Our Multipurpose Liquid Soap in a 25L jerrycan — the best value for large households, chop bars, schools, churches and resellers. Refill your 1L bottles again and again.",
+  "category": "dishwashing",
+  "collections": [
+    "refills"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "mls-25-lemon",
+      "scent": "Lemon",
+      "size": "25L",
+      "price": 380,
+      "image": "/images/photos/liquid-soap-lemon-25l-1280.webp"
+    },
+    {
+      "id": "mls-25-apple",
+      "scent": "Apple",
+      "size": "25L",
+      "price": 380,
+      "image": "/images/photos/liquid-soap-apple-25l-1280.webp"
+    },
+    {
+      "id": "mls-25-strawberry",
+      "scent": "Strawberry",
+      "size": "25L",
+      "price": 380,
+      "image": "/images/photos/liquid-soap-strawberry-25l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/liquid-soap-lemon-25l-1280.webp",
+    "/images/photos/liquid-soap-apple-25l-1280.webp",
+    "/images/photos/liquid-soap-strawberry-25l-1280.webp"
+  ],
+  "usedFor": [
+    "Refilling 1L bottles",
+    "Large households",
+    "Restaurants, schools and churches",
+    "Resellers"
+  ],
+  "benefits": [
+    "Lowest price per litre",
+    "Fewer trips to the shop",
+    "Less plastic than many small bottles"
+  ],
+  "ingredients": "Same as Evafresh Multipurpose Liquid Soap.",
+  "howToUse": [
+    "Pour into smaller bottles as needed, or fit a pump dispenser.",
+    "Close tightly after use and store out of direct sunlight."
+  ],
+  "dilution": [],
+  "safety": "Keep out of reach of children. Heavy — lift with care.",
+  "faqs": [],
+  "popularity": 13,
+  "dateAdded": "2026-06-01",
+  "crossSell": [
+    "pump-dispenser",
+    "multipurpose-liquid-soap"
+  ]
+}

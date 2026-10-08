@@ -1,0 +1,88 @@
+{
+  "order": 200,
+  "id": "whole-home-starter-kit",
+  "type": "bundle",
+  "name": "Whole Home Starter Kit",
+  "tagline": "Every room, sorted",
+  "shortDescription": "Six Evafresh essentials for kitchen, bathroom, floors and laundry.",
+  "description": "Our most complete kit: everything you need to clean every room of your home, in one order, for less than buying separately.",
+  "category": "kits",
+  "collections": [
+    "starter-packs",
+    "best-sellers"
+  ],
+  "badge": "Best Seller",
+  "includes": [
+    {
+      "productId": "multipurpose-liquid-soap",
+      "variantId": "mls-lemon-1l",
+      "qty": 1
+    },
+    {
+      "productId": "multi-surface-cleaner",
+      "variantId": "msc-750",
+      "qty": 1
+    },
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-1l",
+      "qty": 1
+    },
+    {
+      "productId": "bleach",
+      "variantId": "bl-1l",
+      "qty": 1
+    },
+    {
+      "productId": "glass-cleaner",
+      "variantId": "gc-750",
+      "qty": 1
+    },
+    {
+      "productId": "hand-body-soap",
+      "variantId": "hbs-classic-500",
+      "qty": 1
+    }
+  ],
+  "variants": [
+    {
+      "id": "whsk",
+      "size": "Kit of 6",
+      "price": 135
+    }
+  ],
+  "images": [
+    "/images/photos/real-products-grid-1280.webp",
+    "/images/photos/evafresh-lineup-1280.webp"
+  ],
+  "usedFor": [
+    "Kitchen",
+    "Bathroom",
+    "Floors",
+    "Glass and mirrors",
+    "Hand washing"
+  ],
+  "benefits": [
+    "Save vs buying separately",
+    "Great housewarming gift",
+    "Covers every room"
+  ],
+  "ingredients": "See each product's page for ingredients.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children. Never mix cleaning products.",
+  "faqs": [
+    {
+      "q": "Can I swap a product or scent?",
+      "a": "Yes — order via WhatsApp and tell us what you'd like to swap."
+    }
+  ],
+  "popularity": 1,
+  "dateAdded": "2026-05-01",
+  "crossSell": [
+    "fabric-softener",
+    "body-hand-wash"
+  ]
+}

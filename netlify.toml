@@ -1,0 +1,23 @@
+# Netlify settings (used when the site is connected to GitHub — see README section 16)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Public keys only (safe to share). Never put a Supabase service_role key or Paystack secret key here.
+  VITE_SUPABASE_URL = "https://rxqvroknwirshimrzjmz.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ4cXZyb2tud2lyc2hpbXJ6am16Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEzNzg2MDYsImV4cCI6MjEwNjk1NDYwNn0.znZh7eV6qve2C0rpojv9nKTz22nmzIh0UZffIlMMS7o"
+  VITE_PAYMENT_PROVIDER = "paystack"
+  VITE_PAYSTACK_PUBLIC_KEY = "pk_live_4a57624dd61ad1685787bdc21ea68313413c1c1c"
+  VITE_FLUTTERWAVE_PUBLIC_KEY = ""
+  VITE_VERIFY_PAYMENT_URL = ""
+
+# The website editor saves with "[skip netlify]" in the commit message, so edits are
+# collected and published together with the "Publish website now" button (a build hook).
+
+[[headers]]
+  for = "/cms/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+    Cache-Control = "no-cache"

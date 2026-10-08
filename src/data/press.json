@@ -1,0 +1,59 @@
+{
+  "_note": "Logo strip ('Trusted by') and press quotes. All SAMPLE placeholders — replace 'label' and 'logo' with real partners only once you have permission to show their logos.",
+  "trustedBy": [
+    {
+      "label": "Your Supermarket Partner",
+      "kind": "store"
+    },
+    {
+      "label": "Local Market Partner",
+      "kind": "market"
+    },
+    {
+      "label": "Partner Hotel",
+      "kind": "hotel"
+    },
+    {
+      "label": "Partner School",
+      "kind": "school"
+    },
+    {
+      "label": "Office Client",
+      "kind": "office"
+    },
+    {
+      "label": "Media Feature",
+      "kind": "media"
+    },
+    {
+      "label": "Guest House Partner",
+      "kind": "hotel"
+    },
+    {
+      "label": "Church Partner",
+      "kind": "community"
+    }
+  ],
+  "quotes": [
+    {
+      "source": "Sample Media Outlet",
+      "quote": "A refreshingly simple approach to home cleaning: buy big, refill, save.",
+      "sample": true
+    },
+    {
+      "source": "Sample Lifestyle Blog",
+      "quote": "The Whole Home Starter Kit is the housewarming gift every new homeowner should get.",
+      "sample": true
+    },
+    {
+      "source": "Sample Business Radio",
+      "quote": "A Kumasi brand making refills easy for everyday families.",
+      "sample": true
+    },
+    {
+      "source": "Sample Parenting Page",
+      "quote": "Clear labels, clear instructions, and a WhatsApp line that actually answers.",
+      "sample": true
+    }
+  ]
+}

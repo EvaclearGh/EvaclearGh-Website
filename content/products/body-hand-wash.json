@@ -1,0 +1,107 @@
+{
+  "order": 90,
+  "id": "body-hand-wash",
+  "type": "product",
+  "name": "Evafresh Body & Hand Wash",
+  "tagline": "Fragrant, gentle-feel lather",
+  "shortDescription": "Body and hand wash with vitamin E, in four fragrances.",
+  "description": "Evafresh Body & Hand Wash is enriched with vitamin E and moisturisers, according to the label, and comes in Lavender, Saturday Night, Rose Garden and Fleur fragrances. Buy the pump bottle, then refill it from the 2.5L or 4.5L.",
+  "category": "hand-care",
+  "collections": [
+    "best-sellers"
+  ],
+  "badge": "New",
+  "variants": [
+    {
+      "id": "bhw-lav-500",
+      "scent": "Lavender",
+      "size": "500ml pump",
+      "price": 30,
+      "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+    },
+    {
+      "id": "bhw-lav-2-5l",
+      "scent": "Lavender",
+      "size": "2.5L refill",
+      "price": 90,
+      "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+    },
+    {
+      "id": "bhw-lav-4-5l",
+      "scent": "Lavender",
+      "size": "4.5L refill",
+      "price": 150,
+      "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+    },
+    {
+      "id": "bhw-sat-2-5l",
+      "scent": "Saturday Night",
+      "size": "2.5L refill",
+      "price": 90,
+      "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+    },
+    {
+      "id": "bhw-rose-500",
+      "scent": "Rose Garden",
+      "size": "500ml pump",
+      "price": 30,
+      "image": "/images/photos/body-hand-wash-pair-1280.webp"
+    },
+    {
+      "id": "bhw-rose-4-5l",
+      "scent": "Rose Garden",
+      "size": "4.5L refill",
+      "price": 150,
+      "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+    },
+    {
+      "id": "bhw-fleur-4-5l",
+      "scent": "Fleur",
+      "size": "4.5L refill",
+      "price": 150,
+      "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/body-hand-wash-fragrances-1280.webp",
+    "/images/photos/body-hand-wash-lavender-1280.webp",
+    "/images/photos/body-hand-wash-pair-1280.webp"
+  ],
+  "usedFor": [
+    "Hand washing at the sink",
+    "Shower and bath",
+    "Guest toilets",
+    "Offices, salons and hotels"
+  ],
+  "benefits": [
+    "Four fragrances",
+    "Enriched with vitamin E (per label)",
+    "Refill sizes for homes and businesses"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Pump onto wet hands or a sponge.",
+    "Lather, then rinse well."
+  ],
+  "dilution": [
+    {
+      "use": "Pump bottle",
+      "ratio": "Ready to use — no dilution needed"
+    }
+  ],
+  "safety": "For external use only. Avoid contact with eyes. Stop use if irritation occurs.",
+  "faqs": [
+    {
+      "q": "Can I refill my pump bottle?",
+      "a": "Yes. Buy the 2.5L or 4.5L refill in the same fragrance and top up your pump bottle."
+    }
+  ],
+  "popularity": 6,
+  "dateAdded": "2026-08-01",
+  "lineupOrder": 9,
+  "crossSell": [
+    "hand-body-soap",
+    "antiseptic",
+    "pump-dispenser"
+  ]
+}

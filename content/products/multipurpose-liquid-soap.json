@@ -1,0 +1,165 @@
+{
+  "order": 10,
+  "id": "multipurpose-liquid-soap",
+  "type": "product",
+  "name": "Evafresh Multipurpose Liquid Soap",
+  "tagline": "One soap for the whole house",
+  "shortDescription": "For dishes, laundry, bathroom and general cleaning, in four fresh scents.",
+  "description": "Our everyday all-rounder. One bottle of Evafresh Multipurpose Liquid Soap washes dishes, hand-washes clothes, cleans the bathroom and handles general cleaning around the home. Choose from Lemon, Apple, Strawberry and Ocean scents.",
+  "category": "dishwashing",
+  "collections": [
+    "best-sellers"
+  ],
+  "badge": "Best Seller",
+  "variants": [
+    {
+      "id": "mls-lemon-1l",
+      "scent": "Lemon",
+      "size": "1L",
+      "price": 20,
+      "image": "/images/photos/liquid-soap-lemon-bottle-1280.webp"
+    },
+    {
+      "id": "mls-lemon-2-5l",
+      "scent": "Lemon",
+      "size": "2.5L",
+      "price": 45,
+      "image": "/images/photos/liquid-soap-lemon-range-1280.webp"
+    },
+    {
+      "id": "mls-lemon-5l",
+      "scent": "Lemon",
+      "size": "5L",
+      "price": 85,
+      "image": "/images/photos/liquid-soap-lemon-range-2-1280.webp"
+    },
+    {
+      "id": "mls-apple-1l",
+      "scent": "Apple",
+      "size": "1L",
+      "price": 20,
+      "image": "/images/photos/liquid-soap-apple-bottle-1280.webp"
+    },
+    {
+      "id": "mls-apple-2-5l",
+      "scent": "Apple",
+      "size": "2.5L",
+      "price": 45,
+      "image": "/images/photos/liquid-soap-apple-range-1280.webp"
+    },
+    {
+      "id": "mls-apple-5l",
+      "scent": "Apple",
+      "size": "5L",
+      "price": 85,
+      "image": "/images/photos/liquid-soap-apple-range-1280.webp"
+    },
+    {
+      "id": "mls-strawberry-1l",
+      "scent": "Strawberry",
+      "size": "1L",
+      "price": 20,
+      "image": "/images/photos/liquid-soap-strawberry-range-1280.webp"
+    },
+    {
+      "id": "mls-strawberry-2-5l",
+      "scent": "Strawberry",
+      "size": "2.5L",
+      "price": 45,
+      "image": "/images/photos/liquid-soap-strawberry-range-1280.webp"
+    },
+    {
+      "id": "mls-strawberry-5l",
+      "scent": "Strawberry",
+      "size": "5L",
+      "price": 85,
+      "image": "/images/photos/liquid-soap-strawberry-5l-1280.webp"
+    },
+    {
+      "id": "mls-ocean-1l",
+      "scent": "Ocean",
+      "size": "1L",
+      "price": 20,
+      "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+    },
+    {
+      "id": "mls-ocean-2-5l",
+      "scent": "Ocean",
+      "size": "2.5L",
+      "price": 45,
+      "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+    },
+    {
+      "id": "mls-ocean-5l",
+      "scent": "Ocean",
+      "size": "5L",
+      "price": 85,
+      "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/liquid-soap-ocean-range-1280.webp",
+    "/images/photos/liquid-soap-lemon-range-1280.webp",
+    "/images/photos/liquid-soap-strawberry-range-1280.webp",
+    "/images/photos/liquid-soap-apple-range-1280.webp",
+    "/images/photos/liquid-soap-rose-range-1280.webp",
+    "/images/photos/liquid-soap-lemon-bottle-1280.webp",
+    "/images/photos/liquid-soap-apple-bottle-1280.webp"
+  ],
+  "usedFor": [
+    "Washing dishes, pots and pans",
+    "Hand-washing clothes",
+    "Bathroom sinks, tiles and tubs",
+    "Kitchen counters and general cleaning",
+    "Mopping floors (diluted)"
+  ],
+  "benefits": [
+    "One product for many jobs",
+    "Rich lather from a small amount",
+    "Four fresh scents",
+    "Family sizes from 1L to 25L"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Dishes: add a small squeeze to a bowl of water or a few drops to a wet sponge.",
+    "Hand laundry: add a capful to a bucket of water, soak, scrub and rinse.",
+    "Surfaces: dilute in water, wipe, then rinse or wipe dry."
+  ],
+  "dilution": [
+    {
+      "use": "Dishes (washing bowl)",
+      "ratio": "[PLACEHOLDER] e.g. 1 teaspoon in 5L water"
+    },
+    {
+      "use": "Hand laundry (bucket)",
+      "ratio": "[PLACEHOLDER] e.g. 1 capful in 10L water"
+    },
+    {
+      "use": "Floors and tiles",
+      "ratio": "[PLACEHOLDER] e.g. 2 capfuls in 5L water"
+    }
+  ],
+  "safety": "Keep out of reach of children. Avoid contact with eyes; if contact occurs, rinse with plenty of water. Do not swallow. Do not mix with bleach or other cleaning products.",
+  "faqs": [
+    {
+      "q": "Can I use it for both dishes and clothes?",
+      "a": "Yes. It's made for dishwashing, hand laundry, bathroom and general cleaning. Follow the dilution guide for each job."
+    },
+    {
+      "q": "Which scent is the most popular?",
+      "a": "[PLACEHOLDER] Tell customers your best-selling scent here."
+    }
+  ],
+  "popularity": 1,
+  "dateAdded": "2026-03-01",
+  "lineupOrder": 1,
+  "crossSell": [
+    "multi-surface-cleaner",
+    "body-hand-wash",
+    "liquid-soap-bulk-refill"
+  ],
+  "alsoIn": [
+    "laundry",
+    "bathroom"
+  ]
+}

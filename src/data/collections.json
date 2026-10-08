@@ -1,0 +1,124 @@
+{
+  "_note": "Collections & categories shown in menus and collection pages. 'match' decides which products appear: by category, by collection tag, by type, or 'all'.",
+  "collections": [
+    {
+      "slug": "shop-all",
+      "title": "Shop All",
+      "description": "Every Evaclear product, kit and refill in one place.",
+      "match": {
+        "all": true
+      }
+    },
+    {
+      "slug": "best-sellers",
+      "title": "Best Sellers",
+      "description": "The products Ghanaian homes reorder again and again.",
+      "match": {
+        "collection": "best-sellers"
+      }
+    },
+    {
+      "slug": "starter-packs",
+      "title": "Starter Packs",
+      "description": "Everything you need to start, in one box — at a lower price than buying separately.",
+      "match": {
+        "collection": "starter-packs"
+      }
+    },
+    {
+      "slug": "business-packs",
+      "title": "Business Starter Packs",
+      "description": "Starter packs for hotels, hospitals and clinics, wholesalers and distributors. Bulk sizes at business prices.",
+      "match": {
+        "collection": "business-packs"
+      }
+    },
+    {
+      "slug": "bundles",
+      "title": "Bundles & Save",
+      "description": "Stock up on your favourites and save on every bundle.",
+      "match": {
+        "collection": "bundles"
+      }
+    },
+    {
+      "slug": "refills",
+      "title": "Refills",
+      "description": "Big 5L and 25L sizes to refill the bottles you already own. Lower cost per litre, less plastic.",
+      "match": {
+        "collection": "refills"
+      }
+    },
+    {
+      "slug": "accessories",
+      "title": "Accessories",
+      "description": "Bottles, cloths and brushes that make every clean easier.",
+      "match": {
+        "collection": "accessories"
+      }
+    },
+    {
+      "slug": "laundry",
+      "title": "Laundry",
+      "description": "Fresh, bright clothes without harsh scrubbing.",
+      "match": {
+        "category": "laundry"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "dishwashing",
+      "title": "Dishwashing",
+      "description": "Cuts through palm oil, soup pots and greasy pans.",
+      "match": {
+        "category": "dishwashing"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "surface-cleaners",
+      "title": "Surface Cleaners",
+      "description": "Counters, glass, cookers and every surface in between.",
+      "match": {
+        "category": "surface-cleaners"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "floor-cleaners",
+      "title": "Floor Cleaners",
+      "description": "Tiles, terrazzo and wooden floors, clean and fresh.",
+      "match": {
+        "category": "floor-cleaners"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "bathroom",
+      "title": "Bathroom",
+      "description": "Tiles, grout, sinks and showers that sparkle.",
+      "match": {
+        "category": "bathroom"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "hand-care",
+      "title": "Hand Wash & Antiseptics",
+      "description": "Body wash, hand soap and antiseptic for the whole family.",
+      "match": {
+        "category": "hand-care"
+      },
+      "isCategory": true
+    },
+    {
+      "slug": "air-care",
+      "title": "Air Fresheners",
+      "description": "Fresh-smelling rooms in seconds.",
+      "match": {
+        "category": "air-care"
+      },
+      "isCategory": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "order": 140,
+  "id": "floor-cleaner-refill",
+  "type": "product",
+  "name": "Floor Cleaner — 5L Refill Jug",
+  "tagline": "Months of mopping",
+  "shortDescription": "5L jug of Evafresh Floor Cleaner for homes, schools and offices.",
+  "description": "Evafresh Floor Cleaner in a 5L jug. Great for large homes, schools, churches and offices.",
+  "category": "floor-cleaners",
+  "collections": [
+    "refills"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "fc-refill-5l",
+      "size": "5L",
+      "price": 100,
+      "image": "/images/photos/floor-cleaner-lavender-5l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/floor-cleaner-lavender-5l-1280.webp",
+    "/images/photos/floor-cleaner-5l-1280.webp"
+  ],
+  "usedFor": [
+    "Refilling smaller bottles",
+    "Schools, offices and churches"
+  ],
+  "benefits": [
+    "Lower cost per mop",
+    "Fewer bottles to buy"
+  ],
+  "ingredients": "Same as Evafresh Floor Cleaner.",
+  "howToUse": [
+    "Add to a bucket of water and mop."
+  ],
+  "dilution": [
+    {
+      "use": "Everyday mopping",
+      "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
+    }
+  ],
+  "safety": "Keep out of reach of children.",
+  "faqs": [],
+  "popularity": 14,
+  "dateAdded": "2026-08-20",
+  "crossSell": [
+    "floor-cleaner",
+    "pump-dispenser"
+  ]
+}

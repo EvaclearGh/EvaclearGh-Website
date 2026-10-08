@@ -1,0 +1,74 @@
+{
+  "order": 270,
+  "id": "family-monthly-bundle",
+  "type": "bundle",
+  "name": "Family Monthly Bundle",
+  "tagline": "A month of clean, delivered",
+  "shortDescription": "Big-size liquid soap, floor cleaner, softener, bleach and body wash.",
+  "description": "One order to cover a busy family home for about a month (estimate — adjust to your experience). Big sizes, big savings.",
+  "category": "kits",
+  "collections": [
+    "bundles"
+  ],
+  "badge": "",
+  "includes": [
+    {
+      "productId": "multipurpose-liquid-soap",
+      "variantId": "mls-lemon-5l",
+      "qty": 1
+    },
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-2-5l",
+      "qty": 1
+    },
+    {
+      "productId": "fabric-softener",
+      "variantId": "fs-2-5l",
+      "qty": 1
+    },
+    {
+      "productId": "bleach",
+      "variantId": "bl-2-5l",
+      "qty": 1
+    },
+    {
+      "productId": "body-hand-wash",
+      "variantId": "bhw-lav-2-5l",
+      "qty": 1
+    }
+  ],
+  "variants": [
+    {
+      "id": "fmb",
+      "size": "Bundle of 5",
+      "price": 299
+    }
+  ],
+  "images": [
+    "/images/photos/real-products-group-1280.webp",
+    "/images/photos/real-jugs-row-1280.webp"
+  ],
+  "usedFor": [
+    "Laundry",
+    "Dishes",
+    "Floors",
+    "Hand and body washing"
+  ],
+  "benefits": [
+    "Biggest savings",
+    "Qualifies for free Kumasi delivery"
+  ],
+  "ingredients": "See each product's page.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children. Never mix cleaning products.",
+  "faqs": [],
+  "popularity": 2,
+  "dateAdded": "2026-07-01",
+  "crossSell": [
+    "pump-dispenser"
+  ]
+}

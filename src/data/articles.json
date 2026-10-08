@@ -1,0 +1,189 @@
+{
+  "_note": "GENERATED from content/articles by scripts/build-content.mjs. Edit articles in the website editor (/cms) or in content/articles/, not here.",
+  "categories": [
+    "Kitchen",
+    "Laundry",
+    "Bathroom",
+    "Home Care",
+    "Refill Living"
+  ],
+  "articles": [
+    {
+      "slug": "harmattan-dust-cleaning-routine",
+      "title": "A Simple Harmattan Dust Routine for Busy Homes",
+      "category": "Home Care",
+      "excerpt": "Fine dust on every surface? A 15-minute daily routine that keeps it under control.",
+      "image": "/images/photos/real-products-table-1280.webp",
+      "date": "2026-09-20",
+      "readMinutes": 4,
+      "body": [
+        {
+          "p": "Harmattan season brings a fine layer of dust that settles on everything. The trick is little and often, rather than one big clean at the weekend."
+        },
+        {
+          "h": "Start high, finish low"
+        },
+        {
+          "p": "Dust falls, so clean shelves and window ledges first, then tables, then the floor."
+        },
+        {
+          "h": "Damp, not dry"
+        },
+        {
+          "p": "A dry cloth just moves dust around. Use a microfibre cloth lightly sprayed with Multi-Surface Cleaner to trap it."
+        },
+        {
+          "list": [
+            "Close louvres during the windiest hours",
+            "Wipe window sills daily",
+            "Mop floors every other day",
+            "Shake out doormats outside"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "palm-oil-stains-pots",
+      "title": "How to Get Palm-Oil Stains Off Pots and Plastic Bowls",
+      "category": "Kitchen",
+      "excerpt": "That orange tint on your plastic bowls doesn't have to be permanent.",
+      "image": "/images/photos/liquid-soap-lemon-range-1280.webp",
+      "date": "2026-09-05",
+      "readMinutes": 3,
+      "body": [
+        {
+          "p": "Palm oil is delicious but stubborn. Here's how to lift it from pots, bowls and containers."
+        },
+        {
+          "h": "Wipe first"
+        },
+        {
+          "p": "Use a paper towel to wipe out as much oil as possible before washing. Less oil means less soap."
+        },
+        {
+          "h": "Soak in warm, soapy water"
+        },
+        {
+          "p": "Add a little Multipurpose Liquid Soap to warm water and soak for 15 minutes, then scrub."
+        },
+        {
+          "h": "Let the sun help"
+        },
+        {
+          "p": "For plastic bowls with an orange tint, dry them in direct sunlight after washing. The colour often fades."
+        }
+      ]
+    },
+    {
+      "slug": "white-school-uniforms",
+      "title": "Keeping White School Uniforms Bright All Term",
+      "category": "Laundry",
+      "excerpt": "Collars, cuffs and red-earth stains — our tested tips for brighter whites.",
+      "image": "/images/photos/fabric-softener-range-1280.webp",
+      "date": "2026-08-28",
+      "readMinutes": 5,
+      "body": [
+        {
+          "p": "White uniforms take a beating. A little care each week keeps them looking new for longer."
+        },
+        {
+          "h": "Pre-treat collars and cuffs"
+        },
+        {
+          "p": "Rub a little Multipurpose Liquid Soap into collars and cuffs and leave for 10 minutes before washing."
+        },
+        {
+          "h": "Soak overnight for red-earth stains"
+        },
+        {
+          "p": "Soak in cool water with a capful of Multipurpose Liquid Soap. Hot water can set some stains."
+        },
+        {
+          "list": [
+            "Wash whites separately",
+            "Rinse well to avoid yellowing",
+            "Dry in the sun, inside out"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bathroom-grout-guide",
+      "title": "The 10-Minute Bathroom Grout & Limescale Refresh",
+      "category": "Bathroom",
+      "excerpt": "Dark grout lines make a clean bathroom look dirty. Here's a quick fix.",
+      "image": "/images/photos/stain-remover-range-1280.webp",
+      "date": "2026-08-14",
+      "readMinutes": 3,
+      "body": [
+        {
+          "p": "Grout is porous, so it holds on to soap and dirt. A weekly refresh keeps it light."
+        },
+        {
+          "list": [
+            "Apply diluted Stain Remover along the grout lines (gloves on, window open)",
+            "Wait 3 minutes",
+            "Scrub with a firm brush",
+            "Rinse and wipe dry",
+            "Open a window to let the room air out"
+          ]
+        },
+        {
+          "p": "Never mix Stain Remover or any acid cleaner with bleach — the fumes can be dangerous."
+        }
+      ]
+    },
+    {
+      "slug": "why-refill",
+      "title": "Why Buying Big Sizes and Refills Saves You Money",
+      "category": "Refill Living",
+      "excerpt": "The maths behind refilling, explained simply.",
+      "image": "/images/photos/real-jugs-row-1280.webp",
+      "date": "2026-07-30",
+      "readMinutes": 4,
+      "body": [
+        {
+          "p": "Small bottles cost more per litre. When you buy a 5L or 25L jug and refill the bottles you already own, you pay for cleaner, not packaging."
+        },
+        {
+          "h": "Pay less per litre"
+        },
+        {
+          "p": "Compare the price per litre on each size. The bigger jugs usually work out cheapest."
+        },
+        {
+          "h": "Less plastic in the bin"
+        },
+        {
+          "p": "One 25L jerrycan replaces 25 one-litre bottles."
+        }
+      ]
+    },
+    {
+      "slug": "cleaning-with-kids-around",
+      "title": "Safe Cleaning Habits When You Have Young Children",
+      "category": "Home Care",
+      "excerpt": "Simple storage and cleaning habits for a home with little ones.",
+      "image": "/images/photos/real-products-grid-1280.webp",
+      "date": "2026-07-10",
+      "readMinutes": 4,
+      "body": [
+        {
+          "p": "Whatever products you use, a few simple habits make your home safer for children."
+        },
+        {
+          "list": [
+            "Store cleaners up high or in a locked cupboard",
+            "Keep products in their original labelled bottles",
+            "Never pour cleaners into drink bottles",
+            "Close caps straight after use",
+            "Keep Ghana's emergency number (112) and your doctor's number handy"
+          ]
+        },
+        {
+          "p": "Read the label of every product before use, and follow its directions and warnings."
+        }
+      ]
+    }
+  ]
+}

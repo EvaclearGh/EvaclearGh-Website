@@ -1,0 +1,52 @@
+{
+  "order": 120,
+  "id": "air-freshener",
+  "type": "product",
+  "name": "Evafresh Air Freshener",
+  "tagline": "A fresh, floral room in seconds",
+  "shortDescription": "Trigger-spray air freshener with a light floral fragrance.",
+  "description": "Freshen living rooms, bedrooms, bathrooms and cars with a few sprays of Evafresh Air Freshener.",
+  "category": "air-care",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "af-750",
+      "size": "750ml spray",
+      "price": 30,
+      "image": "/images/photos/air-freshener-range-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/air-freshener-range-1280.webp"
+  ],
+  "usedFor": [
+    "Living rooms and bedrooms",
+    "Bathrooms and toilets",
+    "Cars",
+    "Offices and reception areas"
+  ],
+  "benefits": [
+    "Light floral fragrance",
+    "Large 750ml trigger spray"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Spray 2–3 times into the air, away from your face.",
+    "Do not spray onto fabrics or polished surfaces."
+  ],
+  "dilution": [
+    {
+      "use": "Spray bottle",
+      "ratio": "Ready to use — no dilution needed"
+    }
+  ],
+  "safety": "Keep out of reach of children. Do not spray towards eyes or face. Do not spray near flames.",
+  "faqs": [],
+  "popularity": 12,
+  "dateAdded": "2026-06-01",
+  "crossSell": [
+    "glass-cleaner",
+    "multi-surface-cleaner"
+  ]
+}

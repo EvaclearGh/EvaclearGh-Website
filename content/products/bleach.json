@@ -1,0 +1,82 @@
+{
+  "order": 40,
+  "id": "bleach",
+  "type": "product",
+  "name": "Evafresh Bleach",
+  "tagline": "Whiter whites, cleaner surfaces",
+  "shortDescription": "Whitens laundry and cleans toilets, sinks and tiles.",
+  "description": "Evafresh Bleach whitens white laundry and helps remove stains from toilets, sinks, tiles and drains. Always dilute and use in a well-ventilated room.",
+  "category": "laundry",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "bl-1l",
+      "size": "1L",
+      "price": 18,
+      "image": "/images/photos/bleach-bottle-1280.webp"
+    },
+    {
+      "id": "bl-2-5l",
+      "size": "2.5L",
+      "price": 40,
+      "image": "/images/photos/bleach-range-2-1280.webp"
+    },
+    {
+      "id": "bl-5l",
+      "size": "5L",
+      "price": 75,
+      "image": "/images/photos/bleach-range-2-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/bleach-range-2-1280.webp",
+    "/images/photos/bleach-range-1280.webp",
+    "/images/photos/bleach-bottle-1280.webp"
+  ],
+  "usedFor": [
+    "Whitening white clothes and towels",
+    "Toilet bowls",
+    "Sinks and drains",
+    "White tiles and grout"
+  ],
+  "benefits": [
+    "Whitens and brightens whites",
+    "Great for toilets and drains",
+    "Economical when diluted"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list and concentration exactly as printed on your label.",
+  "howToUse": [
+    "Laundry: dilute in a bucket of water before adding white clothes. Never pour directly onto fabric.",
+    "Toilets: pour under the rim, leave for 10 minutes, then scrub and flush.",
+    "Surfaces: dilute, wipe, then rinse with clean water."
+  ],
+  "dilution": [
+    {
+      "use": "White laundry soak",
+      "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
+    },
+    {
+      "use": "Surfaces",
+      "ratio": "[PLACEHOLDER] e.g. 1 part bleach to 10 parts water"
+    }
+  ],
+  "safety": "Keep out of reach of children. Never mix with acids, toilet cleaners or stain remover — dangerous gases can be released. Use in a well-ventilated area. Wear gloves. Not for coloured fabrics.",
+  "faqs": [
+    {
+      "q": "Can I use bleach with Stain Remover?",
+      "a": "No. Never mix bleach with Stain Remover or any acid-based cleaner. Use one product, rinse thoroughly, and only then use another."
+    }
+  ],
+  "popularity": 5,
+  "dateAdded": "2026-03-01",
+  "lineupOrder": 4,
+  "crossSell": [
+    "stain-remover",
+    "fabric-softener",
+    "multipurpose-liquid-soap"
+  ],
+  "alsoIn": [
+    "bathroom"
+  ]
+}

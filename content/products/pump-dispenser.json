@@ -1,0 +1,43 @@
+{
+  "order": 180,
+  "id": "pump-dispenser",
+  "type": "product",
+  "name": "Jerrycan Pump Dispenser",
+  "tagline": "Mess-free refills",
+  "shortDescription": "Screw-on pump for 5L and 25L jugs. (Sample accessory)",
+  "description": "SAMPLE ACCESSORY — replace or remove. Screws onto 5L and 25L jugs so you can pump out exactly what you need without spills.",
+  "category": "accessories",
+  "collections": [
+    "accessories"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "pd-1",
+      "size": "Fits 5L & 25L",
+      "price": 20
+    }
+  ],
+  "images": [
+    "/images/placeholders/pump.svg"
+  ],
+  "usedFor": [
+    "5L and 25L jugs"
+  ],
+  "benefits": [
+    "No spills",
+    "Measured doses"
+  ],
+  "ingredients": "Plastic pump.",
+  "howToUse": [
+    "Remove the jug cap and screw on the pump."
+  ],
+  "dilution": [],
+  "safety": "",
+  "faqs": [],
+  "popularity": 18,
+  "dateAdded": "2026-06-01",
+  "crossSell": [
+    "liquid-soap-bulk-refill"
+  ]
+}

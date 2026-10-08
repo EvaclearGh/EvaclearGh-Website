@@ -1,0 +1,195 @@
+{
+  "_note": "Menu links. 'promos' are the two image tiles inside the Shop menu (image = photo name from public/images/photos).",
+  "shop": {
+    "featured": [
+      {
+        "label": "Shop All",
+        "to": "/shop"
+      },
+      {
+        "label": "Best Sellers",
+        "to": "/collections/best-sellers"
+      },
+      {
+        "label": "Starter Packs",
+        "to": "/collections/starter-packs"
+      },
+      {
+        "label": "Business Starter Packs",
+        "to": "/collections/business-packs"
+      },
+      {
+        "label": "Bundles & Save",
+        "to": "/bundles"
+      },
+      {
+        "label": "Refills",
+        "to": "/collections/refills"
+      },
+      {
+        "label": "Accessories",
+        "to": "/collections/accessories"
+      }
+    ],
+    "categories": [
+      {
+        "label": "Laundry",
+        "to": "/collections/laundry"
+      },
+      {
+        "label": "Dishwashing",
+        "to": "/collections/dishwashing"
+      },
+      {
+        "label": "Surface Cleaners",
+        "to": "/collections/surface-cleaners"
+      },
+      {
+        "label": "Floor Cleaners",
+        "to": "/collections/floor-cleaners"
+      },
+      {
+        "label": "Bathroom",
+        "to": "/collections/bathroom"
+      },
+      {
+        "label": "Hand Wash & Antiseptics",
+        "to": "/collections/hand-care"
+      },
+      {
+        "label": "Air Fresheners",
+        "to": "/collections/air-care"
+      }
+    ],
+    "promos": [
+      {
+        "title": "Starter Kits",
+        "text": "Save when you buy together",
+        "to": "/collections/starter-packs",
+        "image": "/images/photos/real-products-grid-1280.webp"
+      },
+      {
+        "title": "Bulk Refills",
+        "text": "5L & 25L — lowest price per litre",
+        "to": "/collections/refills",
+        "image": "/images/photos/real-jugs-row-1280.webp"
+      }
+    ]
+  },
+  "learn": [
+    {
+      "label": "Our Story",
+      "to": "/our-story"
+    },
+    {
+      "label": "How It Works",
+      "to": "/how-it-works"
+    },
+    {
+      "label": "Cleaning Tips & Tricks",
+      "to": "/tips"
+    },
+    {
+      "label": "FAQs / Help Centre",
+      "to": "/help"
+    },
+    {
+      "label": "Blog",
+      "to": "/tips"
+    },
+    {
+      "label": "Where to Buy",
+      "to": "/stockists"
+    }
+  ],
+  "rewards": [
+    {
+      "label": "Loyalty Rewards",
+      "to": "/rewards"
+    },
+    {
+      "label": "Refer a Friend",
+      "to": "/refer"
+    }
+  ],
+  "footer": {
+    "Shop": [
+      {
+        "label": "Shop All",
+        "to": "/shop"
+      },
+      {
+        "label": "Best Sellers",
+        "to": "/collections/best-sellers"
+      },
+      {
+        "label": "Starter Packs",
+        "to": "/collections/starter-packs"
+      },
+      {
+        "label": "Business Starter Packs",
+        "to": "/collections/business-packs"
+      },
+      {
+        "label": "Bundles & Save",
+        "to": "/bundles"
+      },
+      {
+        "label": "Refills",
+        "to": "/collections/refills"
+      },
+      {
+        "label": "Wholesale & Bulk",
+        "to": "/wholesale"
+      }
+    ],
+    "Learn": [
+      {
+        "label": "Our Story",
+        "to": "/our-story"
+      },
+      {
+        "label": "How It Works",
+        "to": "/how-it-works"
+      },
+      {
+        "label": "Cleaning Tips & Blog",
+        "to": "/tips"
+      },
+      {
+        "label": "Where to Buy",
+        "to": "/stockists"
+      },
+      {
+        "label": "Loyalty Rewards",
+        "to": "/rewards"
+      },
+      {
+        "label": "Refer a Friend",
+        "to": "/refer"
+      }
+    ],
+    "Support": [
+      {
+        "label": "Help Centre & FAQs",
+        "to": "/help"
+      },
+      {
+        "label": "Delivery Information",
+        "to": "/help#delivery"
+      },
+      {
+        "label": "Refunds & Returns",
+        "to": "/help#returns"
+      },
+      {
+        "label": "Contact Us",
+        "to": "/contact"
+      },
+      {
+        "label": "Track My Order",
+        "to": "/account"
+      }
+    ]
+  }
+}

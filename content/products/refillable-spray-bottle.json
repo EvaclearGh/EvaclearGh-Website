@@ -1,0 +1,46 @@
+{
+  "order": 170,
+  "id": "refillable-spray-bottle",
+  "type": "product",
+  "name": "Refillable Trigger Spray Bottle",
+  "tagline": "Refill it, don't bin it",
+  "shortDescription": "Empty 750ml trigger spray for your refills. (Sample accessory)",
+  "description": "SAMPLE ACCESSORY — replace or remove. An empty 750ml trigger spray bottle to fill from your Multi-Surface or Glass Cleaner refills.",
+  "category": "accessories",
+  "collections": [
+    "accessories"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "rsb-750",
+      "size": "750ml",
+      "price": 15
+    }
+  ],
+  "images": [
+    "/images/placeholders/spray-bottle.svg"
+  ],
+  "usedFor": [
+    "Multi-Surface Cleaner refills",
+    "Glass Cleaner refills"
+  ],
+  "benefits": [
+    "Reusable",
+    "Fine-mist trigger"
+  ],
+  "ingredients": "Empty plastic bottle with trigger.",
+  "howToUse": [
+    "Fill from your refill jug and screw on the trigger.",
+    "Label the bottle with the product name."
+  ],
+  "dilution": [],
+  "safety": "Always label refilled bottles clearly. Never put cleaners in drink bottles.",
+  "faqs": [],
+  "popularity": 17,
+  "dateAdded": "2026-04-01",
+  "crossSell": [
+    "multi-surface-cleaner",
+    "glass-cleaner"
+  ]
+}

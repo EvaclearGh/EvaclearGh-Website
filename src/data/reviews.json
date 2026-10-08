@@ -1,0 +1,105 @@
+{
+  "_note": "SAMPLE REVIEWS — illustrative only. Replace with genuine customer reviews before launch (and keep 'sample': true until you do, so the site labels them).",
+  "reviews": [
+    {
+      "productId": "multi-surface-cleaner",
+      "name": "Sample customer — Adjoa",
+      "location": "Tema",
+      "rating": 5,
+      "title": "My kitchen counters have never looked better",
+      "body": "I keep the spray by the cooker and use it on everything.",
+      "date": "2026-08-12",
+      "sample": true
+    },
+    {
+      "productId": "multi-surface-cleaner",
+      "name": "Sample customer — Kwesi",
+      "location": "Accra",
+      "rating": 4,
+      "title": "Good value",
+      "body": "Works well on the dining table and fridge. I now buy the 5L refill.",
+      "date": "2026-07-30",
+      "sample": true
+    },
+    {
+      "productId": "fabric-softener",
+      "name": "Sample customer — Akosua",
+      "location": "Kumasi",
+      "rating": 5,
+      "title": "Clothes come out soft",
+      "body": "Uniforms are much easier to iron since I started using the softener.",
+      "date": "2026-08-02",
+      "sample": true
+    },
+    {
+      "productId": "fabric-softener",
+      "name": "Sample customer — Yaw",
+      "location": "Accra",
+      "rating": 5,
+      "title": "Lovely scent",
+      "body": "My towels smell fresh for days.",
+      "date": "2026-07-18",
+      "sample": true
+    },
+    {
+      "productId": "multipurpose-liquid-soap",
+      "name": "Sample customer — Efua",
+      "location": "Cape Coast",
+      "rating": 5,
+      "title": "Palm-oil pots, no problem",
+      "body": "The lemon liquid soap cuts through my soup pot grease easily.",
+      "date": "2026-08-20",
+      "sample": true
+    },
+    {
+      "productId": "body-hand-wash",
+      "name": "Sample customer — Nana",
+      "location": "Asokwa, Kumasi",
+      "rating": 4,
+      "title": "Lavender is beautiful",
+      "body": "Smells lovely and the refill makes it cheaper.",
+      "date": "2026-06-10",
+      "sample": true
+    },
+    {
+      "productId": "whole-home-starter-kit",
+      "name": "Sample customer — Abena",
+      "location": "Spintex",
+      "rating": 5,
+      "title": "Perfect housewarming gift",
+      "body": "Bought this for my sister's new flat and then ordered one for myself.",
+      "date": "2026-08-25",
+      "sample": true
+    },
+    {
+      "productId": "stain-remover",
+      "name": "Sample customer — Kojo",
+      "location": "Madina",
+      "rating": 4,
+      "title": "Took off the rust marks",
+      "body": "Removed the old rust stains from the sink. Wear gloves — it's strong!",
+      "date": "2026-09-01",
+      "sample": true
+    },
+    {
+      "productId": "multipurpose-liquid-soap",
+      "name": "Sample customer — Ama",
+      "location": "Kasoa",
+      "rating": 5,
+      "title": "I use it for everything",
+      "body": "Dishes, bathroom and even hand-washing clothes. The 5L lasts our family weeks.",
+      "date": "2026-09-10",
+      "sample": true
+    },
+    {
+      "productId": "floor-cleaner",
+      "name": "Sample customer — Selasi",
+      "location": "Ho",
+      "rating": 5,
+      "title": "Floors shine",
+      "body": "Nice fresh smell in the whole house after mopping.",
+      "date": "2026-09-14",
+      "sample": true
+    }
+  ]
+}

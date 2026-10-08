@@ -1,0 +1,68 @@
+{
+  "order": 280,
+  "id": "bulk-refill-bundle",
+  "type": "bundle",
+  "name": "Bulk Refill Bundle",
+  "tagline": "Stock up and save",
+  "shortDescription": "5L jugs of floor cleaner, softener, stain remover and liquid soap.",
+  "description": "Four 5L jugs for big households, guest houses and small businesses. Refill your smaller bottles and save.",
+  "category": "kits",
+  "collections": [
+    "bundles"
+  ],
+  "badge": "",
+  "includes": [
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-5l",
+      "qty": 1
+    },
+    {
+      "productId": "fabric-softener",
+      "variantId": "fs-5l",
+      "qty": 1
+    },
+    {
+      "productId": "stain-remover",
+      "variantId": "sr-5l",
+      "qty": 1
+    },
+    {
+      "productId": "multipurpose-liquid-soap",
+      "variantId": "mls-strawberry-5l",
+      "qty": 1
+    }
+  ],
+  "variants": [
+    {
+      "id": "brb",
+      "size": "4 × 5L",
+      "price": 365
+    }
+  ],
+  "images": [
+    "/images/photos/real-jugs-row-1280.webp",
+    "/images/photos/real-products-white-1280.webp"
+  ],
+  "usedFor": [
+    "Large households",
+    "Guest houses",
+    "Small businesses"
+  ],
+  "benefits": [
+    "Save vs buying separately",
+    "Less plastic than many small bottles"
+  ],
+  "ingredients": "See each product's page.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children. Never mix cleaning products. Stain Remover is corrosive.",
+  "faqs": [],
+  "popularity": 5,
+  "dateAdded": "2026-06-01",
+  "crossSell": [
+    "pump-dispenser"
+  ]
+}

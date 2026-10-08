@@ -1,0 +1,46 @@
+{
+  "order": 190,
+  "id": "microfibre-cloths",
+  "type": "product",
+  "name": "Microfibre Cloth Set (3 pack)",
+  "tagline": "Lift dust, not lint",
+  "shortDescription": "Three washable cloths for streak-free cleaning. (Sample accessory)",
+  "description": "SAMPLE ACCESSORY — replace or remove. Three colour-coded microfibre cloths for the kitchen, the bathroom and glass.",
+  "category": "accessories",
+  "collections": [
+    "accessories"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "mc-3pk",
+      "size": "3 pack",
+      "price": 25
+    }
+  ],
+  "images": [
+    "/images/placeholders/cloths.svg"
+  ],
+  "usedFor": [
+    "Wiping surfaces",
+    "Polishing glass",
+    "Dusting"
+  ],
+  "benefits": [
+    "Colour-coded",
+    "Washable and reusable"
+  ],
+  "ingredients": "Microfibre.",
+  "howToUse": [
+    "Use damp for cleaning, dry for polishing."
+  ],
+  "dilution": [],
+  "safety": "",
+  "faqs": [],
+  "popularity": 19,
+  "dateAdded": "2026-04-01",
+  "crossSell": [
+    "glass-cleaner",
+    "multi-surface-cleaner"
+  ]
+}

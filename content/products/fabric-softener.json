@@ -1,0 +1,72 @@
+{
+  "order": 60,
+  "id": "fabric-softener",
+  "type": "product",
+  "name": "Evafresh Afterwash & Fabric Softener",
+  "tagline": "Soft and fresh, wash after wash",
+  "shortDescription": "Leaves clothes soft, easier to iron and fresh-smelling.",
+  "description": "Add Evafresh Afterwash & Fabric Softener to your final rinse for softer clothes and towels that smell fresh for longer and are easier to iron.",
+  "category": "laundry",
+  "collections": [
+    "best-sellers"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "fs-1l",
+      "size": "1L",
+      "price": 30,
+      "image": "/images/photos/fabric-softener-range-2-1280.webp"
+    },
+    {
+      "id": "fs-2-5l",
+      "size": "2.5L",
+      "price": 65,
+      "image": "/images/photos/fabric-softener-range-1280.webp"
+    },
+    {
+      "id": "fs-5l",
+      "size": "5L",
+      "price": 120,
+      "image": "/images/photos/fabric-softener-5l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/fabric-softener-range-2-1280.webp",
+    "/images/photos/fabric-softener-range-1280.webp",
+    "/images/photos/fabric-softener-5l-1280.webp",
+    "/images/photos/fabric-softener-5l-2-1280.webp"
+  ],
+  "usedFor": [
+    "Clothes and uniforms",
+    "Towels and bedsheets",
+    "Easier ironing",
+    "Long-lasting fresh scent"
+  ],
+  "benefits": [
+    "Softer clothes",
+    "Easier ironing",
+    "Long-lasting freshness"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Wash and rinse clothes as normal.",
+    "Add softener to the final rinse water (or machine softener drawer).",
+    "Soak for a few minutes, wring and dry."
+  ],
+  "dilution": [
+    {
+      "use": "Final rinse (bucket)",
+      "ratio": "[PLACEHOLDER] e.g. 1 capful in 10L water"
+    }
+  ],
+  "safety": "Keep out of reach of children. Avoid contact with eyes. Do not swallow.",
+  "faqs": [],
+  "popularity": 4,
+  "dateAdded": "2026-03-01",
+  "lineupOrder": 6,
+  "crossSell": [
+    "bleach",
+    "multipurpose-liquid-soap"
+  ]
+}

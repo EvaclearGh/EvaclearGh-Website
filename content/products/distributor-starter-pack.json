@@ -1,0 +1,82 @@
+{
+  "order": 260,
+  "id": "distributor-starter-pack",
+  "type": "bundle",
+  "name": "Distributor Starter Pack",
+  "tagline": "Bulk supply for distributors",
+  "shortDescription": "25L jerrycans and 5L jugs for distributors and bulk resellers who repack or supply other shops.",
+  "description": "Our largest pack, for distributors and bulk resellers. It combines 25L jerrycans of liquid soap and antiseptic with 5L jugs of floor cleaner, fabric softener and bleach: the lowest price per litre we offer. Contact us about distribution areas and volume pricing.",
+  "category": "kits",
+  "collections": [
+    "starter-packs",
+    "business-packs"
+  ],
+  "badge": "New",
+  "includes": [
+    {
+      "productId": "liquid-soap-bulk-refill",
+      "variantId": "mls-25-lemon",
+      "qty": 2
+    },
+    {
+      "productId": "antiseptic-bulk-refill",
+      "variantId": "ant-25l",
+      "qty": 1
+    },
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-5l",
+      "qty": 4
+    },
+    {
+      "productId": "fabric-softener",
+      "variantId": "fs-5l",
+      "qty": 4
+    },
+    {
+      "productId": "bleach",
+      "variantId": "bl-5l",
+      "qty": 4
+    }
+  ],
+  "variants": [
+    {
+      "id": "distributor-starter-pack-pack",
+      "size": "Bulk pack (15 items)",
+      "price": 2290
+    }
+  ],
+  "images": [
+    "/images/photos/real-jugs-row-1280.webp",
+    "/images/photos/antiseptic-25l-1280.webp"
+  ],
+  "usedFor": [
+    "Distributors",
+    "Bulk resellers",
+    "Cleaning companies"
+  ],
+  "benefits": [
+    "Lowest price per litre",
+    "25L and 5L bulk sizes",
+    "Ask about distribution areas and volume pricing"
+  ],
+  "ingredients": "See each product's page for ingredients.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+  "faqs": [
+    {
+      "q": "Do you offer distributor pricing?",
+      "a": "Yes. Repeat distributor orders get volume pricing. Request a quote on our Wholesale page."
+    },
+    {
+      "q": "Can you deliver outside Kumasi?",
+      "a": "Yes, to any region. Delivery fees for bulk orders are confirmed when we confirm your order."
+    }
+  ],
+  "popularity": 10,
+  "dateAdded": "2026-10-07",
+  "crossSell": []
+}

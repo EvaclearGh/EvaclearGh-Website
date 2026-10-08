@@ -1,0 +1,2009 @@
+{
+  "_note": "GENERATED from content/products by scripts/build-content.mjs. Edit products in the website editor (/cms) or in content/products/, not here.",
+  "products": [
+    {
+      "id": "multipurpose-liquid-soap",
+      "type": "product",
+      "name": "Evafresh Multipurpose Liquid Soap",
+      "tagline": "One soap for the whole house",
+      "shortDescription": "For dishes, laundry, bathroom and general cleaning, in four fresh scents.",
+      "description": "Our everyday all-rounder. One bottle of Evafresh Multipurpose Liquid Soap washes dishes, hand-washes clothes, cleans the bathroom and handles general cleaning around the home. Choose from Lemon, Apple, Strawberry and Ocean scents.",
+      "category": "dishwashing",
+      "collections": [
+        "best-sellers"
+      ],
+      "badge": "Best Seller",
+      "variants": [
+        {
+          "id": "mls-lemon-1l",
+          "scent": "Lemon",
+          "size": "1L",
+          "price": 20,
+          "image": "/images/photos/liquid-soap-lemon-bottle-1280.webp"
+        },
+        {
+          "id": "mls-lemon-2-5l",
+          "scent": "Lemon",
+          "size": "2.5L",
+          "price": 45,
+          "image": "/images/photos/liquid-soap-lemon-range-1280.webp"
+        },
+        {
+          "id": "mls-lemon-5l",
+          "scent": "Lemon",
+          "size": "5L",
+          "price": 85,
+          "image": "/images/photos/liquid-soap-lemon-range-2-1280.webp"
+        },
+        {
+          "id": "mls-apple-1l",
+          "scent": "Apple",
+          "size": "1L",
+          "price": 20,
+          "image": "/images/photos/liquid-soap-apple-bottle-1280.webp"
+        },
+        {
+          "id": "mls-apple-2-5l",
+          "scent": "Apple",
+          "size": "2.5L",
+          "price": 45,
+          "image": "/images/photos/liquid-soap-apple-range-1280.webp"
+        },
+        {
+          "id": "mls-apple-5l",
+          "scent": "Apple",
+          "size": "5L",
+          "price": 85,
+          "image": "/images/photos/liquid-soap-apple-range-1280.webp"
+        },
+        {
+          "id": "mls-strawberry-1l",
+          "scent": "Strawberry",
+          "size": "1L",
+          "price": 20,
+          "image": "/images/photos/liquid-soap-strawberry-range-1280.webp"
+        },
+        {
+          "id": "mls-strawberry-2-5l",
+          "scent": "Strawberry",
+          "size": "2.5L",
+          "price": 45,
+          "image": "/images/photos/liquid-soap-strawberry-range-1280.webp"
+        },
+        {
+          "id": "mls-strawberry-5l",
+          "scent": "Strawberry",
+          "size": "5L",
+          "price": 85,
+          "image": "/images/photos/liquid-soap-strawberry-5l-1280.webp"
+        },
+        {
+          "id": "mls-ocean-1l",
+          "scent": "Ocean",
+          "size": "1L",
+          "price": 20,
+          "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+        },
+        {
+          "id": "mls-ocean-2-5l",
+          "scent": "Ocean",
+          "size": "2.5L",
+          "price": 45,
+          "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+        },
+        {
+          "id": "mls-ocean-5l",
+          "scent": "Ocean",
+          "size": "5L",
+          "price": 85,
+          "image": "/images/photos/liquid-soap-ocean-range-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/liquid-soap-ocean-range-1280.webp",
+        "/images/photos/liquid-soap-lemon-range-1280.webp",
+        "/images/photos/liquid-soap-strawberry-range-1280.webp",
+        "/images/photos/liquid-soap-apple-range-1280.webp",
+        "/images/photos/liquid-soap-rose-range-1280.webp",
+        "/images/photos/liquid-soap-lemon-bottle-1280.webp",
+        "/images/photos/liquid-soap-apple-bottle-1280.webp"
+      ],
+      "usedFor": [
+        "Washing dishes, pots and pans",
+        "Hand-washing clothes",
+        "Bathroom sinks, tiles and tubs",
+        "Kitchen counters and general cleaning",
+        "Mopping floors (diluted)"
+      ],
+      "benefits": [
+        "One product for many jobs",
+        "Rich lather from a small amount",
+        "Four fresh scents",
+        "Family sizes from 1L to 25L"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Dishes: add a small squeeze to a bowl of water or a few drops to a wet sponge.",
+        "Hand laundry: add a capful to a bucket of water, soak, scrub and rinse.",
+        "Surfaces: dilute in water, wipe, then rinse or wipe dry."
+      ],
+      "dilution": [
+        {
+          "use": "Dishes (washing bowl)",
+          "ratio": "[PLACEHOLDER] e.g. 1 teaspoon in 5L water"
+        },
+        {
+          "use": "Hand laundry (bucket)",
+          "ratio": "[PLACEHOLDER] e.g. 1 capful in 10L water"
+        },
+        {
+          "use": "Floors and tiles",
+          "ratio": "[PLACEHOLDER] e.g. 2 capfuls in 5L water"
+        }
+      ],
+      "safety": "Keep out of reach of children. Avoid contact with eyes; if contact occurs, rinse with plenty of water. Do not swallow. Do not mix with bleach or other cleaning products.",
+      "faqs": [
+        {
+          "q": "Can I use it for both dishes and clothes?",
+          "a": "Yes. It's made for dishwashing, hand laundry, bathroom and general cleaning. Follow the dilution guide for each job."
+        },
+        {
+          "q": "Which scent is the most popular?",
+          "a": "[PLACEHOLDER] Tell customers your best-selling scent here."
+        }
+      ],
+      "popularity": 1,
+      "dateAdded": "2026-03-01",
+      "lineupOrder": 1,
+      "crossSell": [
+        "multi-surface-cleaner",
+        "body-hand-wash",
+        "liquid-soap-bulk-refill"
+      ],
+      "alsoIn": [
+        "laundry",
+        "bathroom"
+      ]
+    },
+    {
+      "id": "multi-surface-cleaner",
+      "type": "product",
+      "name": "Evafresh Multi-Surface Cleaner",
+      "tagline": "Spray, wipe, done",
+      "shortDescription": "A trigger-spray cleaner and degreaser for counters, tables and tiles.",
+      "description": "Evafresh Multi-Surface Cleaner is a ready-to-use spray that lifts grease, fingerprints and everyday grime from kitchen counters, tables, appliances and tiles. Keep one in the kitchen and one in the bathroom.",
+      "category": "surface-cleaners",
+      "collections": [
+        "best-sellers"
+      ],
+      "badge": "Most Loved",
+      "variants": [
+        {
+          "id": "msc-750",
+          "size": "750ml spray",
+          "price": 30,
+          "image": "/images/photos/multi-surface-blue-1280.webp"
+        },
+        {
+          "id": "msc-2-5l",
+          "size": "2.5L refill",
+          "price": 70,
+          "image": "/images/photos/multi-surface-range-1280.webp"
+        },
+        {
+          "id": "msc-5l",
+          "size": "5L refill",
+          "price": 130,
+          "image": "/images/photos/multi-surface-range-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/multi-surface-range-1280.webp",
+        "/images/photos/multi-surface-blue-1280.webp",
+        "/images/photos/multi-surface-green-1280.webp"
+      ],
+      "usedFor": [
+        "Kitchen countertops",
+        "Dining tables",
+        "Fridge, cooker and microwave",
+        "Wall tiles",
+        "Doors and switches"
+      ],
+      "benefits": [
+        "Ready to use — no mixing",
+        "Cuts everyday grease",
+        "Refill the spray from the 2.5L or 5L"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Spray onto the surface from about 20cm.",
+        "Wipe with a clean, damp cloth.",
+        "For greasy areas, leave for 1 minute before wiping."
+      ],
+      "dilution": [
+        {
+          "use": "Spray bottle",
+          "ratio": "Ready to use — no dilution needed"
+        }
+      ],
+      "safety": "Keep out of reach of children. Do not spray near eyes or face. Do not mix with other cleaning products. Test on a small hidden area of delicate surfaces first.",
+      "faqs": [
+        {
+          "q": "Can I refill my spray bottle?",
+          "a": "Yes. Buy the 2.5L or 5L refill and top up your trigger spray bottle."
+        }
+      ],
+      "popularity": 2,
+      "dateAdded": "2026-03-01",
+      "lineupOrder": 2,
+      "crossSell": [
+        "glass-cleaner",
+        "ultra-cleaner",
+        "refillable-spray-bottle"
+      ],
+      "alsoIn": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "floor-cleaner",
+      "type": "product",
+      "name": "Evafresh Floor Cleaner",
+      "tagline": "Clean, shine and protect",
+      "shortDescription": "Mops away dirt and leaves tiles and terrazzo fresh and shiny.",
+      "description": "Evafresh Floor Cleaner cleans, shines and protects tiles, terrazzo and sealed floors, leaving a fresh scent through the room. Add to a bucket of water and mop.",
+      "category": "floor-cleaners",
+      "collections": [
+        "best-sellers"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "fc-1l",
+          "size": "1L",
+          "price": 25,
+          "image": "/images/photos/floor-cleaner-range-1280.webp"
+        },
+        {
+          "id": "fc-2-5l",
+          "size": "2.5L",
+          "price": 55,
+          "image": "/images/photos/floor-cleaner-range-1280.webp"
+        },
+        {
+          "id": "fc-5l",
+          "size": "5L",
+          "price": 100,
+          "image": "/images/photos/floor-cleaner-5l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/floor-cleaner-range-1280.webp",
+        "/images/photos/floor-cleaner-5l-1280.webp",
+        "/images/photos/floor-cleaner-lavender-5l-1280.webp"
+      ],
+      "usedFor": [
+        "Ceramic and porcelain tiles",
+        "Terrazzo floors",
+        "Kitchen and bathroom floors",
+        "Verandas and corridors",
+        "Shops, offices and classrooms"
+      ],
+      "benefits": [
+        "Cleans, shines and protects",
+        "Fresh, long-lasting scent",
+        "Economical — a little per bucket"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Sweep the floor first.",
+        "Add Floor Cleaner to a bucket of water.",
+        "Mop and leave to dry."
+      ],
+      "dilution": [
+        {
+          "use": "Everyday mopping",
+          "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
+        }
+      ],
+      "safety": "Keep out of reach of children. Floors may be slippery while wet. Do not mix with other cleaning products.",
+      "faqs": [
+        {
+          "q": "Do I need to rinse after mopping?",
+          "a": "[PLACEHOLDER] Confirm whether your formula needs rinsing."
+        }
+      ],
+      "popularity": 3,
+      "dateAdded": "2026-03-01",
+      "lineupOrder": 3,
+      "crossSell": [
+        "multipurpose-liquid-soap",
+        "bleach",
+        "floor-cleaner-refill"
+      ]
+    },
+    {
+      "id": "bleach",
+      "type": "product",
+      "name": "Evafresh Bleach",
+      "tagline": "Whiter whites, cleaner surfaces",
+      "shortDescription": "Whitens laundry and cleans toilets, sinks and tiles.",
+      "description": "Evafresh Bleach whitens white laundry and helps remove stains from toilets, sinks, tiles and drains. Always dilute and use in a well-ventilated room.",
+      "category": "laundry",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "bl-1l",
+          "size": "1L",
+          "price": 18,
+          "image": "/images/photos/bleach-bottle-1280.webp"
+        },
+        {
+          "id": "bl-2-5l",
+          "size": "2.5L",
+          "price": 40,
+          "image": "/images/photos/bleach-range-2-1280.webp"
+        },
+        {
+          "id": "bl-5l",
+          "size": "5L",
+          "price": 75,
+          "image": "/images/photos/bleach-range-2-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/bleach-range-2-1280.webp",
+        "/images/photos/bleach-range-1280.webp",
+        "/images/photos/bleach-bottle-1280.webp"
+      ],
+      "usedFor": [
+        "Whitening white clothes and towels",
+        "Toilet bowls",
+        "Sinks and drains",
+        "White tiles and grout"
+      ],
+      "benefits": [
+        "Whitens and brightens whites",
+        "Great for toilets and drains",
+        "Economical when diluted"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list and concentration exactly as printed on your label.",
+      "howToUse": [
+        "Laundry: dilute in a bucket of water before adding white clothes. Never pour directly onto fabric.",
+        "Toilets: pour under the rim, leave for 10 minutes, then scrub and flush.",
+        "Surfaces: dilute, wipe, then rinse with clean water."
+      ],
+      "dilution": [
+        {
+          "use": "White laundry soak",
+          "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
+        },
+        {
+          "use": "Surfaces",
+          "ratio": "[PLACEHOLDER] e.g. 1 part bleach to 10 parts water"
+        }
+      ],
+      "safety": "Keep out of reach of children. Never mix with acids, toilet cleaners or stain remover — dangerous gases can be released. Use in a well-ventilated area. Wear gloves. Not for coloured fabrics.",
+      "faqs": [
+        {
+          "q": "Can I use bleach with Stain Remover?",
+          "a": "No. Never mix bleach with Stain Remover or any acid-based cleaner. Use one product, rinse thoroughly, and only then use another."
+        }
+      ],
+      "popularity": 5,
+      "dateAdded": "2026-03-01",
+      "lineupOrder": 4,
+      "crossSell": [
+        "stain-remover",
+        "fabric-softener",
+        "multipurpose-liquid-soap"
+      ],
+      "alsoIn": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "stain-remover",
+      "type": "product",
+      "name": "Evafresh Stain Remover",
+      "tagline": "For the toughest stains",
+      "shortDescription": "Acid formula that removes tough stains, limescale and rust. For whites only.",
+      "description": "Evafresh Stain Remover is a powerful acid formula (HCl + citric acid) that tackles tough stains, limescale and rust marks and helps whiten and brighten white items. Handle with care: it is corrosive. Always read the label and wear gloves.",
+      "category": "laundry",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "sr-750",
+          "size": "750ml",
+          "price": 25,
+          "image": "/images/photos/stain-remover-bottle-1280.webp"
+        },
+        {
+          "id": "sr-2-5l",
+          "size": "2.5L",
+          "price": 55,
+          "image": "/images/photos/stain-remover-range-1280.webp"
+        },
+        {
+          "id": "sr-5l",
+          "size": "5L",
+          "price": 100,
+          "image": "/images/photos/stain-remover-5l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/stain-remover-range-1280.webp",
+        "/images/photos/stain-remover-range-2-1280.webp",
+        "/images/photos/stain-remover-bottle-1280.webp",
+        "/images/photos/stain-remover-5l-1280.webp"
+      ],
+      "usedFor": [
+        "Tough stains on whites",
+        "Limescale on taps and tiles",
+        "Rust marks",
+        "Toilet bowl stains"
+      ],
+      "benefits": [
+        "Powerful acid formula",
+        "Removes limescale and rust",
+        "Whitens and brightens"
+      ],
+      "ingredients": "Hydrochloric acid (HCl), citric acid. [PLACEHOLDER] Add the full list and concentrations from your label.",
+      "howToUse": [
+        "Put on rubber gloves and open a window.",
+        "Apply a small amount to the stain (or dilute as directed on the label).",
+        "Leave for a short time only — do not leave on surfaces for long.",
+        "Rinse thoroughly with clean water."
+      ],
+      "dilution": [
+        {
+          "use": "As directed on the label",
+          "ratio": "[PLACEHOLDER] Add your tested dilution"
+        }
+      ],
+      "safety": "DANGER: CORROSIVE. Causes burns to skin and eyes. Wear gloves and eye protection. Never mix with bleach or other cleaners — toxic gas can be released. Use in a well-ventilated area. Not for coloured fabrics, marble, natural stone, aluminium or enamel. Keep locked up and out of reach of children. If on skin or in eyes, rinse with plenty of water for 15 minutes and seek medical help.",
+      "faqs": [
+        {
+          "q": "Can I use it on coloured clothes?",
+          "a": "No. Stain Remover is for whites only."
+        },
+        {
+          "q": "Is it safe on marble?",
+          "a": "No. Acids damage marble and natural stone."
+        }
+      ],
+      "popularity": 7,
+      "dateAdded": "2026-04-10",
+      "lineupOrder": 5,
+      "crossSell": [
+        "bleach",
+        "fabric-softener"
+      ],
+      "alsoIn": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "fabric-softener",
+      "type": "product",
+      "name": "Evafresh Afterwash & Fabric Softener",
+      "tagline": "Soft and fresh, wash after wash",
+      "shortDescription": "Leaves clothes soft, easier to iron and fresh-smelling.",
+      "description": "Add Evafresh Afterwash & Fabric Softener to your final rinse for softer clothes and towels that smell fresh for longer and are easier to iron.",
+      "category": "laundry",
+      "collections": [
+        "best-sellers"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "fs-1l",
+          "size": "1L",
+          "price": 30,
+          "image": "/images/photos/fabric-softener-range-2-1280.webp"
+        },
+        {
+          "id": "fs-2-5l",
+          "size": "2.5L",
+          "price": 65,
+          "image": "/images/photos/fabric-softener-range-1280.webp"
+        },
+        {
+          "id": "fs-5l",
+          "size": "5L",
+          "price": 120,
+          "image": "/images/photos/fabric-softener-5l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/fabric-softener-range-2-1280.webp",
+        "/images/photos/fabric-softener-range-1280.webp",
+        "/images/photos/fabric-softener-5l-1280.webp",
+        "/images/photos/fabric-softener-5l-2-1280.webp"
+      ],
+      "usedFor": [
+        "Clothes and uniforms",
+        "Towels and bedsheets",
+        "Easier ironing",
+        "Long-lasting fresh scent"
+      ],
+      "benefits": [
+        "Softer clothes",
+        "Easier ironing",
+        "Long-lasting freshness"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Wash and rinse clothes as normal.",
+        "Add softener to the final rinse water (or machine softener drawer).",
+        "Soak for a few minutes, wring and dry."
+      ],
+      "dilution": [
+        {
+          "use": "Final rinse (bucket)",
+          "ratio": "[PLACEHOLDER] e.g. 1 capful in 10L water"
+        }
+      ],
+      "safety": "Keep out of reach of children. Avoid contact with eyes. Do not swallow.",
+      "faqs": [],
+      "popularity": 4,
+      "dateAdded": "2026-03-01",
+      "lineupOrder": 6,
+      "crossSell": [
+        "bleach",
+        "multipurpose-liquid-soap"
+      ]
+    },
+    {
+      "id": "glass-cleaner",
+      "type": "product",
+      "name": "Evafresh Glass Cleaner",
+      "tagline": "Crystal clear, streak free",
+      "shortDescription": "Clear, streak-free windows, mirrors and glass tables.",
+      "description": "Evafresh Glass Cleaner removes dust, fingerprints and smudges from windows, mirrors, louvres and glass tables for a clear, streak-free finish.",
+      "category": "surface-cleaners",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "gc-750",
+          "size": "750ml spray",
+          "price": 25,
+          "image": "/images/photos/glass-cleaner-range-1280.webp"
+        },
+        {
+          "id": "gc-2-5l",
+          "size": "2.5L refill",
+          "price": 55,
+          "image": "/images/photos/glass-cleaner-range-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/glass-cleaner-range-1280.webp"
+      ],
+      "usedFor": [
+        "Windows and louvres",
+        "Mirrors",
+        "Glass tables and shelves",
+        "Shop display cabinets"
+      ],
+      "benefits": [
+        "Streak-free finish",
+        "Fast drying",
+        "Removes fingerprints and dust"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Spray lightly onto the glass.",
+        "Wipe with a dry, lint-free cloth.",
+        "Buff with a second dry cloth for extra shine."
+      ],
+      "dilution": [
+        {
+          "use": "Spray bottle",
+          "ratio": "Ready to use — no dilution needed"
+        }
+      ],
+      "safety": "Keep out of reach of children. Avoid spraying near eyes. Do not spray directly onto electronic screens.",
+      "faqs": [],
+      "popularity": 8,
+      "dateAdded": "2026-04-10",
+      "lineupOrder": 7,
+      "crossSell": [
+        "multi-surface-cleaner",
+        "refillable-spray-bottle"
+      ]
+    },
+    {
+      "id": "ultra-cleaner",
+      "type": "product",
+      "name": "Evafresh Ultra Cleaner",
+      "tagline": "Heavy-duty power",
+      "shortDescription": "Heavy-duty cleaner that cuts tough grease and grime.",
+      "description": "When everyday cleaners aren't enough, Evafresh Ultra Cleaner cuts through heavy grease and built-up grime on cookers, extractor hoods, garage floors and workshop surfaces.",
+      "category": "surface-cleaners",
+      "collections": [],
+      "badge": "New",
+      "variants": [
+        {
+          "id": "uc-1l",
+          "size": "1L",
+          "price": 35,
+          "image": "/images/photos/ultra-cleaner-range-1280.webp"
+        },
+        {
+          "id": "uc-2-5l",
+          "size": "2.5L",
+          "price": 80,
+          "image": "/images/photos/ultra-cleaner-range-1280.webp"
+        },
+        {
+          "id": "uc-5l",
+          "size": "5L",
+          "price": 150,
+          "image": "/images/photos/ultra-cleaner-range-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/ultra-cleaner-range-1280.webp"
+      ],
+      "usedFor": [
+        "Cookers and gas stoves",
+        "Extractor hoods",
+        "Garage and workshop floors",
+        "Heavily soiled surfaces"
+      ],
+      "benefits": [
+        "Heavy-duty strength",
+        "Cuts grease and grime"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Wear gloves.",
+        "Dilute as directed for heavy-duty cleaning.",
+        "Apply, leave briefly, scrub and rinse well."
+      ],
+      "dilution": [
+        {
+          "use": "Heavy grease",
+          "ratio": "[PLACEHOLDER] Add your tested dilution"
+        }
+      ],
+      "safety": "Keep out of reach of children. Wear gloves. Avoid contact with eyes and skin. Do not mix with other cleaning products. Test on a small hidden area first.",
+      "faqs": [],
+      "popularity": 10,
+      "dateAdded": "2026-08-15",
+      "lineupOrder": 8,
+      "crossSell": [
+        "multi-surface-cleaner",
+        "floor-cleaner"
+      ],
+      "alsoIn": [
+        "floor-cleaners"
+      ]
+    },
+    {
+      "id": "body-hand-wash",
+      "type": "product",
+      "name": "Evafresh Body & Hand Wash",
+      "tagline": "Fragrant, gentle-feel lather",
+      "shortDescription": "Body and hand wash with vitamin E, in four fragrances.",
+      "description": "Evafresh Body & Hand Wash is enriched with vitamin E and moisturisers, according to the label, and comes in Lavender, Saturday Night, Rose Garden and Fleur fragrances. Buy the pump bottle, then refill it from the 2.5L or 4.5L.",
+      "category": "hand-care",
+      "collections": [
+        "best-sellers"
+      ],
+      "badge": "New",
+      "variants": [
+        {
+          "id": "bhw-lav-500",
+          "scent": "Lavender",
+          "size": "500ml pump",
+          "price": 30,
+          "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+        },
+        {
+          "id": "bhw-lav-2-5l",
+          "scent": "Lavender",
+          "size": "2.5L refill",
+          "price": 90,
+          "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+        },
+        {
+          "id": "bhw-lav-4-5l",
+          "scent": "Lavender",
+          "size": "4.5L refill",
+          "price": 150,
+          "image": "/images/photos/body-hand-wash-lavender-1280.webp"
+        },
+        {
+          "id": "bhw-sat-2-5l",
+          "scent": "Saturday Night",
+          "size": "2.5L refill",
+          "price": 90,
+          "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+        },
+        {
+          "id": "bhw-rose-500",
+          "scent": "Rose Garden",
+          "size": "500ml pump",
+          "price": 30,
+          "image": "/images/photos/body-hand-wash-pair-1280.webp"
+        },
+        {
+          "id": "bhw-rose-4-5l",
+          "scent": "Rose Garden",
+          "size": "4.5L refill",
+          "price": 150,
+          "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+        },
+        {
+          "id": "bhw-fleur-4-5l",
+          "scent": "Fleur",
+          "size": "4.5L refill",
+          "price": 150,
+          "image": "/images/photos/body-hand-wash-fragrances-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/body-hand-wash-fragrances-1280.webp",
+        "/images/photos/body-hand-wash-lavender-1280.webp",
+        "/images/photos/body-hand-wash-pair-1280.webp"
+      ],
+      "usedFor": [
+        "Hand washing at the sink",
+        "Shower and bath",
+        "Guest toilets",
+        "Offices, salons and hotels"
+      ],
+      "benefits": [
+        "Four fragrances",
+        "Enriched with vitamin E (per label)",
+        "Refill sizes for homes and businesses"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Pump onto wet hands or a sponge.",
+        "Lather, then rinse well."
+      ],
+      "dilution": [
+        {
+          "use": "Pump bottle",
+          "ratio": "Ready to use — no dilution needed"
+        }
+      ],
+      "safety": "For external use only. Avoid contact with eyes. Stop use if irritation occurs.",
+      "faqs": [
+        {
+          "q": "Can I refill my pump bottle?",
+          "a": "Yes. Buy the 2.5L or 4.5L refill in the same fragrance and top up your pump bottle."
+        }
+      ],
+      "popularity": 6,
+      "dateAdded": "2026-08-01",
+      "lineupOrder": 9,
+      "crossSell": [
+        "hand-body-soap",
+        "antiseptic",
+        "pump-dispenser"
+      ]
+    },
+    {
+      "id": "hand-body-soap",
+      "type": "product",
+      "name": "Evafresh Hand & Body Soap",
+      "tagline": "Long-lasting freshness",
+      "shortDescription": "Hand and body soap in a pump bottle, Classic or Lavender.",
+      "description": "A long-lasting, fresh liquid hand and body soap in a convenient pump bottle. Choose Classic or Lavender.",
+      "category": "hand-care",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "hbs-classic-500",
+          "scent": "Classic",
+          "size": "500ml pump",
+          "price": 35,
+          "image": "/images/photos/hand-body-soap-classic-1280.webp"
+        },
+        {
+          "id": "hbs-lavender-500",
+          "scent": "Lavender",
+          "size": "500ml pump",
+          "price": 35,
+          "image": "/images/photos/hand-body-soap-lavender-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/hand-body-soap-classic-1280.webp",
+        "/images/photos/hand-body-soap-lavender-1280.webp"
+      ],
+      "usedFor": [
+        "Hand washing",
+        "Shower and bath"
+      ],
+      "benefits": [
+        "Long-lasting fresh scent",
+        "Convenient pump bottle"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Pump onto wet hands.",
+        "Lather for 20 seconds and rinse."
+      ],
+      "dilution": [
+        {
+          "use": "Pump bottle",
+          "ratio": "Ready to use — no dilution needed"
+        }
+      ],
+      "safety": "For external use only. Avoid contact with eyes.",
+      "faqs": [],
+      "popularity": 9,
+      "dateAdded": "2026-05-20",
+      "crossSell": [
+        "body-hand-wash",
+        "antiseptic"
+      ]
+    },
+    {
+      "id": "antiseptic",
+      "type": "product",
+      "name": "Evafresh Antiseptic Disinfectant Liquid",
+      "tagline": "Everyday hygiene for home and work",
+      "shortDescription": "Antiseptic disinfectant liquid for floors, surfaces and laundry rinses.",
+      "description": "Evafresh Antiseptic Disinfectant Liquid adds an extra hygiene step to your cleaning routine: dilute it for floors, bathrooms and surfaces, or add it to your laundry rinse. Available from 1L for homes up to 25L for schools, hotels and offices.",
+      "category": "hand-care",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "ant-1l",
+          "size": "1L",
+          "price": 40,
+          "image": "/images/photos/antiseptic-range-1280.webp"
+        },
+        {
+          "id": "ant-2-5l",
+          "size": "2.5L",
+          "price": 90,
+          "image": "/images/photos/antiseptic-range-1280.webp"
+        },
+        {
+          "id": "ant-5l",
+          "size": "5L",
+          "price": 170,
+          "image": "/images/photos/antiseptic-5l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/antiseptic-range-1280.webp",
+        "/images/photos/antiseptic-5l-1280.webp",
+        "/images/photos/antiseptic-25l-1280.webp"
+      ],
+      "usedFor": [
+        "Bathroom and toilet surfaces",
+        "Floors (diluted)",
+        "Laundry rinse",
+        "Schools, offices and hotels"
+      ],
+      "benefits": [
+        "Extra hygiene step",
+        "Home and bulk sizes"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the active ingredient(s) and concentration exactly as printed on your label.",
+      "howToUse": [
+        "Always dilute before use, following the label.",
+        "Floors and surfaces: add to water, wipe or mop.",
+        "Laundry: add to the final rinse."
+      ],
+      "dilution": [
+        {
+          "use": "Floors and surfaces",
+          "ratio": "[PLACEHOLDER] Add your label dilution"
+        },
+        {
+          "use": "Laundry rinse",
+          "ratio": "[PLACEHOLDER] Add your label dilution"
+        }
+      ],
+      "safety": "Keep out of reach of children. Always dilute. Avoid contact with eyes. Do not swallow. Do not mix with other cleaning products.",
+      "faqs": [
+        {
+          "q": "Which germs does it kill?",
+          "a": "[PLACEHOLDER] Only state germ-kill claims that are approved/certified for your product (e.g. by the Ghana FDA)."
+        }
+      ],
+      "popularity": 11,
+      "dateAdded": "2026-05-01",
+      "crossSell": [
+        "floor-cleaner",
+        "body-hand-wash"
+      ],
+      "alsoIn": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "air-freshener",
+      "type": "product",
+      "name": "Evafresh Air Freshener",
+      "tagline": "A fresh, floral room in seconds",
+      "shortDescription": "Trigger-spray air freshener with a light floral fragrance.",
+      "description": "Freshen living rooms, bedrooms, bathrooms and cars with a few sprays of Evafresh Air Freshener.",
+      "category": "air-care",
+      "collections": [],
+      "badge": "",
+      "variants": [
+        {
+          "id": "af-750",
+          "size": "750ml spray",
+          "price": 30,
+          "image": "/images/photos/air-freshener-range-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/air-freshener-range-1280.webp"
+      ],
+      "usedFor": [
+        "Living rooms and bedrooms",
+        "Bathrooms and toilets",
+        "Cars",
+        "Offices and reception areas"
+      ],
+      "benefits": [
+        "Light floral fragrance",
+        "Large 750ml trigger spray"
+      ],
+      "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+      "howToUse": [
+        "Spray 2–3 times into the air, away from your face.",
+        "Do not spray onto fabrics or polished surfaces."
+      ],
+      "dilution": [
+        {
+          "use": "Spray bottle",
+          "ratio": "Ready to use — no dilution needed"
+        }
+      ],
+      "safety": "Keep out of reach of children. Do not spray towards eyes or face. Do not spray near flames.",
+      "faqs": [],
+      "popularity": 12,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "glass-cleaner",
+        "multi-surface-cleaner"
+      ]
+    },
+    {
+      "id": "liquid-soap-bulk-refill",
+      "type": "product",
+      "name": "Multipurpose Liquid Soap — 25L Bulk Refill",
+      "tagline": "Lowest price per litre",
+      "shortDescription": "25L jerrycan for big families, shops, schools and resellers.",
+      "description": "Our Multipurpose Liquid Soap in a 25L jerrycan — the best value for large households, chop bars, schools, churches and resellers. Refill your 1L bottles again and again.",
+      "category": "dishwashing",
+      "collections": [
+        "refills"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "mls-25-lemon",
+          "scent": "Lemon",
+          "size": "25L",
+          "price": 380,
+          "image": "/images/photos/liquid-soap-lemon-25l-1280.webp"
+        },
+        {
+          "id": "mls-25-apple",
+          "scent": "Apple",
+          "size": "25L",
+          "price": 380,
+          "image": "/images/photos/liquid-soap-apple-25l-1280.webp"
+        },
+        {
+          "id": "mls-25-strawberry",
+          "scent": "Strawberry",
+          "size": "25L",
+          "price": 380,
+          "image": "/images/photos/liquid-soap-strawberry-25l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/liquid-soap-lemon-25l-1280.webp",
+        "/images/photos/liquid-soap-apple-25l-1280.webp",
+        "/images/photos/liquid-soap-strawberry-25l-1280.webp"
+      ],
+      "usedFor": [
+        "Refilling 1L bottles",
+        "Large households",
+        "Restaurants, schools and churches",
+        "Resellers"
+      ],
+      "benefits": [
+        "Lowest price per litre",
+        "Fewer trips to the shop",
+        "Less plastic than many small bottles"
+      ],
+      "ingredients": "Same as Evafresh Multipurpose Liquid Soap.",
+      "howToUse": [
+        "Pour into smaller bottles as needed, or fit a pump dispenser.",
+        "Close tightly after use and store out of direct sunlight."
+      ],
+      "dilution": [],
+      "safety": "Keep out of reach of children. Heavy — lift with care.",
+      "faqs": [],
+      "popularity": 13,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "pump-dispenser",
+        "multipurpose-liquid-soap"
+      ]
+    },
+    {
+      "id": "floor-cleaner-refill",
+      "type": "product",
+      "name": "Floor Cleaner — 5L Refill Jug",
+      "tagline": "Months of mopping",
+      "shortDescription": "5L jug of Evafresh Floor Cleaner for homes, schools and offices.",
+      "description": "Evafresh Floor Cleaner in a 5L jug. Great for large homes, schools, churches and offices.",
+      "category": "floor-cleaners",
+      "collections": [
+        "refills"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "fc-refill-5l",
+          "size": "5L",
+          "price": 100,
+          "image": "/images/photos/floor-cleaner-lavender-5l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/floor-cleaner-lavender-5l-1280.webp",
+        "/images/photos/floor-cleaner-5l-1280.webp"
+      ],
+      "usedFor": [
+        "Refilling smaller bottles",
+        "Schools, offices and churches"
+      ],
+      "benefits": [
+        "Lower cost per mop",
+        "Fewer bottles to buy"
+      ],
+      "ingredients": "Same as Evafresh Floor Cleaner.",
+      "howToUse": [
+        "Add to a bucket of water and mop."
+      ],
+      "dilution": [
+        {
+          "use": "Everyday mopping",
+          "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
+        }
+      ],
+      "safety": "Keep out of reach of children.",
+      "faqs": [],
+      "popularity": 14,
+      "dateAdded": "2026-08-20",
+      "crossSell": [
+        "floor-cleaner",
+        "pump-dispenser"
+      ]
+    },
+    {
+      "id": "fabric-softener-refill",
+      "type": "product",
+      "name": "Fabric Softener — 5L Refill Jug",
+      "tagline": "Soft laundry for months",
+      "shortDescription": "5L jug of Evafresh Afterwash & Fabric Softener.",
+      "description": "Our Afterwash & Fabric Softener in a 5L jug for big families, laundries and hotels.",
+      "category": "laundry",
+      "collections": [
+        "refills"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "fs-refill-5l",
+          "size": "5L",
+          "price": 120,
+          "image": "/images/photos/fabric-softener-5l-2-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/fabric-softener-5l-2-1280.webp",
+        "/images/photos/fabric-softener-5l-1280.webp"
+      ],
+      "usedFor": [
+        "Refilling smaller bottles",
+        "Laundries and hotels"
+      ],
+      "benefits": [
+        "Lower cost per wash"
+      ],
+      "ingredients": "Same as Evafresh Afterwash & Fabric Softener.",
+      "howToUse": [
+        "Add to the final rinse."
+      ],
+      "dilution": [],
+      "safety": "Keep out of reach of children.",
+      "faqs": [],
+      "popularity": 15,
+      "dateAdded": "2026-08-20",
+      "crossSell": [
+        "fabric-softener"
+      ]
+    },
+    {
+      "id": "antiseptic-bulk-refill",
+      "type": "product",
+      "name": "Antiseptic Disinfectant — 25L Bulk",
+      "tagline": "For schools, hotels and offices",
+      "shortDescription": "25L jerrycan of Evafresh Antiseptic Disinfectant Liquid.",
+      "description": "Our antiseptic disinfectant liquid in a 25L jerrycan for institutions, cleaning companies and resellers.",
+      "category": "hand-care",
+      "collections": [
+        "refills"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "ant-25l",
+          "size": "25L",
+          "price": 750,
+          "image": "/images/photos/antiseptic-25l-1280.webp"
+        }
+      ],
+      "images": [
+        "/images/photos/antiseptic-25l-1280.webp"
+      ],
+      "usedFor": [
+        "Schools, hotels and offices",
+        "Cleaning companies",
+        "Resellers"
+      ],
+      "benefits": [
+        "Lowest price per litre"
+      ],
+      "ingredients": "Same as Evafresh Antiseptic Disinfectant Liquid.",
+      "howToUse": [
+        "Always dilute before use, following the label."
+      ],
+      "dilution": [],
+      "safety": "Keep out of reach of children. Always dilute. Heavy — lift with care.",
+      "faqs": [],
+      "popularity": 16,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "antiseptic"
+      ]
+    },
+    {
+      "id": "refillable-spray-bottle",
+      "type": "product",
+      "name": "Refillable Trigger Spray Bottle",
+      "tagline": "Refill it, don't bin it",
+      "shortDescription": "Empty 750ml trigger spray for your refills. (Sample accessory)",
+      "description": "SAMPLE ACCESSORY — replace or remove. An empty 750ml trigger spray bottle to fill from your Multi-Surface or Glass Cleaner refills.",
+      "category": "accessories",
+      "collections": [
+        "accessories"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "rsb-750",
+          "size": "750ml",
+          "price": 15
+        }
+      ],
+      "images": [
+        "/images/placeholders/spray-bottle.svg"
+      ],
+      "usedFor": [
+        "Multi-Surface Cleaner refills",
+        "Glass Cleaner refills"
+      ],
+      "benefits": [
+        "Reusable",
+        "Fine-mist trigger"
+      ],
+      "ingredients": "Empty plastic bottle with trigger.",
+      "howToUse": [
+        "Fill from your refill jug and screw on the trigger.",
+        "Label the bottle with the product name."
+      ],
+      "dilution": [],
+      "safety": "Always label refilled bottles clearly. Never put cleaners in drink bottles.",
+      "faqs": [],
+      "popularity": 17,
+      "dateAdded": "2026-04-01",
+      "crossSell": [
+        "multi-surface-cleaner",
+        "glass-cleaner"
+      ]
+    },
+    {
+      "id": "pump-dispenser",
+      "type": "product",
+      "name": "Jerrycan Pump Dispenser",
+      "tagline": "Mess-free refills",
+      "shortDescription": "Screw-on pump for 5L and 25L jugs. (Sample accessory)",
+      "description": "SAMPLE ACCESSORY — replace or remove. Screws onto 5L and 25L jugs so you can pump out exactly what you need without spills.",
+      "category": "accessories",
+      "collections": [
+        "accessories"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "pd-1",
+          "size": "Fits 5L & 25L",
+          "price": 20
+        }
+      ],
+      "images": [
+        "/images/placeholders/pump.svg"
+      ],
+      "usedFor": [
+        "5L and 25L jugs"
+      ],
+      "benefits": [
+        "No spills",
+        "Measured doses"
+      ],
+      "ingredients": "Plastic pump.",
+      "howToUse": [
+        "Remove the jug cap and screw on the pump."
+      ],
+      "dilution": [],
+      "safety": "",
+      "faqs": [],
+      "popularity": 18,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "liquid-soap-bulk-refill"
+      ]
+    },
+    {
+      "id": "microfibre-cloths",
+      "type": "product",
+      "name": "Microfibre Cloth Set (3 pack)",
+      "tagline": "Lift dust, not lint",
+      "shortDescription": "Three washable cloths for streak-free cleaning. (Sample accessory)",
+      "description": "SAMPLE ACCESSORY — replace or remove. Three colour-coded microfibre cloths for the kitchen, the bathroom and glass.",
+      "category": "accessories",
+      "collections": [
+        "accessories"
+      ],
+      "badge": "",
+      "variants": [
+        {
+          "id": "mc-3pk",
+          "size": "3 pack",
+          "price": 25
+        }
+      ],
+      "images": [
+        "/images/placeholders/cloths.svg"
+      ],
+      "usedFor": [
+        "Wiping surfaces",
+        "Polishing glass",
+        "Dusting"
+      ],
+      "benefits": [
+        "Colour-coded",
+        "Washable and reusable"
+      ],
+      "ingredients": "Microfibre.",
+      "howToUse": [
+        "Use damp for cleaning, dry for polishing."
+      ],
+      "dilution": [],
+      "safety": "",
+      "faqs": [],
+      "popularity": 19,
+      "dateAdded": "2026-04-01",
+      "crossSell": [
+        "glass-cleaner",
+        "multi-surface-cleaner"
+      ]
+    },
+    {
+      "id": "whole-home-starter-kit",
+      "type": "bundle",
+      "name": "Whole Home Starter Kit",
+      "tagline": "Every room, sorted",
+      "shortDescription": "Six Evafresh essentials for kitchen, bathroom, floors and laundry.",
+      "description": "Our most complete kit: everything you need to clean every room of your home, in one order, for less than buying separately.",
+      "category": "kits",
+      "collections": [
+        "starter-packs",
+        "best-sellers"
+      ],
+      "badge": "Best Seller",
+      "includes": [
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-lemon-1l",
+          "qty": 1
+        },
+        {
+          "productId": "multi-surface-cleaner",
+          "variantId": "msc-750",
+          "qty": 1
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-1l",
+          "qty": 1
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-1l",
+          "qty": 1
+        },
+        {
+          "productId": "glass-cleaner",
+          "variantId": "gc-750",
+          "qty": 1
+        },
+        {
+          "productId": "hand-body-soap",
+          "variantId": "hbs-classic-500",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "whsk",
+          "size": "Kit of 6",
+          "price": 135
+        }
+      ],
+      "images": [
+        "/images/photos/real-products-grid-1280.webp",
+        "/images/photos/evafresh-lineup-1280.webp"
+      ],
+      "usedFor": [
+        "Kitchen",
+        "Bathroom",
+        "Floors",
+        "Glass and mirrors",
+        "Hand washing"
+      ],
+      "benefits": [
+        "Save vs buying separately",
+        "Great housewarming gift",
+        "Covers every room"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children. Never mix cleaning products.",
+      "faqs": [
+        {
+          "q": "Can I swap a product or scent?",
+          "a": "Yes — order via WhatsApp and tell us what you'd like to swap."
+        }
+      ],
+      "popularity": 1,
+      "dateAdded": "2026-05-01",
+      "crossSell": [
+        "fabric-softener",
+        "body-hand-wash"
+      ]
+    },
+    {
+      "id": "kitchen-starter-kit",
+      "type": "bundle",
+      "name": "Kitchen Starter Kit",
+      "tagline": "The heart of the home",
+      "shortDescription": "Liquid soap, multi-surface spray, ultra cleaner and hand soap.",
+      "description": "Dishes, counters, cooker and hands — the kitchen essentials in one order.",
+      "category": "kits",
+      "collections": [
+        "starter-packs"
+      ],
+      "badge": "Most Loved",
+      "includes": [
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-lemon-1l",
+          "qty": 1
+        },
+        {
+          "productId": "multi-surface-cleaner",
+          "variantId": "msc-750",
+          "qty": 1
+        },
+        {
+          "productId": "ultra-cleaner",
+          "variantId": "uc-1l",
+          "qty": 1
+        },
+        {
+          "productId": "hand-body-soap",
+          "variantId": "hbs-classic-500",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "ksk",
+          "size": "Kit of 4",
+          "price": 105
+        }
+      ],
+      "images": [
+        "/images/photos/real-products-table-1280.webp",
+        "/images/photos/liquid-soap-lemon-range-1280.webp"
+      ],
+      "usedFor": [
+        "Dishes",
+        "Counters",
+        "Cooker",
+        "Hand washing"
+      ],
+      "benefits": [
+        "Save vs buying separately"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children. Never mix cleaning products.",
+      "faqs": [],
+      "popularity": 3,
+      "dateAdded": "2026-05-01",
+      "crossSell": [
+        "liquid-soap-bulk-refill"
+      ]
+    },
+    {
+      "id": "laundry-care-pack",
+      "type": "bundle",
+      "name": "Laundry Care Pack",
+      "tagline": "Bright, soft and fresh",
+      "shortDescription": "Liquid soap, bleach and fabric softener for laundry day.",
+      "description": "Wash with Multipurpose Liquid Soap, brighten whites with Bleach and finish with Afterwash & Fabric Softener.",
+      "category": "kits",
+      "collections": [
+        "starter-packs"
+      ],
+      "badge": "",
+      "includes": [
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-ocean-2-5l",
+          "qty": 1
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-1l",
+          "qty": 1
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-1l",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "lcp",
+          "size": "Pack of 3",
+          "price": 82
+        }
+      ],
+      "images": [
+        "/images/photos/real-lineup-mixed-1280.webp",
+        "/images/photos/fabric-softener-range-2-1280.webp"
+      ],
+      "usedFor": [
+        "Laundry day"
+      ],
+      "benefits": [
+        "Save vs buying separately"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label. Never mix bleach with other products."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children. Never mix bleach with other products.",
+      "faqs": [],
+      "popularity": 4,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "stain-remover"
+      ]
+    },
+    {
+      "id": "hotel-starter-pack",
+      "type": "bundle",
+      "name": "Hotel Starter Pack",
+      "tagline": "Guest-ready rooms, every day",
+      "shortDescription": "Body & hand wash, floor, surface and glass cleaners, softener, bleach and air freshener for hotels and guest houses.",
+      "description": "Everything housekeeping needs to get guest rooms, bathrooms and linen ready: refill sizes of body & hand wash for guest bathrooms, cleaners for floors, surfaces and mirrors, fabric softener and bleach for linen, and air freshener for rooms and corridors.",
+      "category": "kits",
+      "collections": [
+        "starter-packs",
+        "business-packs"
+      ],
+      "badge": "New",
+      "includes": [
+        {
+          "productId": "body-hand-wash",
+          "variantId": "bhw-lav-4-5l",
+          "qty": 2
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-5l",
+          "qty": 1
+        },
+        {
+          "productId": "multi-surface-cleaner",
+          "variantId": "msc-5l",
+          "qty": 1
+        },
+        {
+          "productId": "glass-cleaner",
+          "variantId": "gc-2-5l",
+          "qty": 1
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-5l",
+          "qty": 1
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-5l",
+          "qty": 1
+        },
+        {
+          "productId": "air-freshener",
+          "variantId": "af-750",
+          "qty": 2
+        }
+      ],
+      "variants": [
+        {
+          "id": "hotel-starter-pack-pack",
+          "size": "Pack of 9 items",
+          "price": 749
+        }
+      ],
+      "images": [
+        "/images/photos/body-hand-wash-fragrances-1280.webp",
+        "/images/photos/real-jugs-row-1280.webp"
+      ],
+      "usedFor": [
+        "Guest bathrooms",
+        "Room and corridor floors",
+        "Mirrors and glass",
+        "Bed linen and towels",
+        "Reception and lobby"
+      ],
+      "benefits": [
+        "Save vs buying separately",
+        "Refill sizes for daily housekeeping",
+        "Ask about monthly scheduled delivery"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+      "faqs": [
+        {
+          "q": "Can you deliver this every month?",
+          "a": "Yes. Request a scheduled delivery on our Wholesale page or WhatsApp us, and we'll agree a regular delivery day."
+        },
+        {
+          "q": "Can I change the fragrances?",
+          "a": "Yes. Tell us your preferred body & hand wash fragrance when you order."
+        }
+      ],
+      "popularity": 7,
+      "dateAdded": "2026-10-07",
+      "crossSell": []
+    },
+    {
+      "id": "hospital-starter-pack",
+      "type": "bundle",
+      "name": "Hospital & Clinic Starter Pack",
+      "tagline": "Cleaning essentials for clinics",
+      "shortDescription": "Antiseptic disinfectant liquid, bleach, floor and surface cleaners and hand wash for hospitals, clinics and pharmacies.",
+      "description": "A bulk cleaning pack for hospitals, clinics, maternity homes and pharmacies: antiseptic disinfectant liquid and bleach for routine cleaning, floor and surface cleaners for wards and corridors, and body & hand wash for staff and patient wash areas. Use alongside your facility's own infection-control procedures.",
+      "category": "kits",
+      "collections": [
+        "starter-packs",
+        "business-packs"
+      ],
+      "badge": "New",
+      "includes": [
+        {
+          "productId": "antiseptic",
+          "variantId": "ant-5l",
+          "qty": 2
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-5l",
+          "qty": 2
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-5l",
+          "qty": 1
+        },
+        {
+          "productId": "multi-surface-cleaner",
+          "variantId": "msc-5l",
+          "qty": 1
+        },
+        {
+          "productId": "body-hand-wash",
+          "variantId": "bhw-lav-4-5l",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "hospital-starter-pack-pack",
+          "size": "Pack of 7 items",
+          "price": 779
+        }
+      ],
+      "images": [
+        "/images/photos/antiseptic-range-1280.webp",
+        "/images/photos/antiseptic-5l-1280.webp"
+      ],
+      "usedFor": [
+        "Wards and corridors",
+        "Consulting rooms",
+        "Toilets and wash areas",
+        "Staff hand-washing points",
+        "Laundry"
+      ],
+      "benefits": [
+        "Save vs buying separately",
+        "Bulk 5L sizes",
+        "Ask about monthly scheduled delivery"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+      "faqs": [
+        {
+          "q": "Are these products certified for medical disinfection?",
+          "a": "[PLACEHOLDER] State only certifications your products actually hold (e.g. Ghana FDA registration numbers). Until then, use them for general cleaning alongside your facility's approved disinfectants."
+        },
+        {
+          "q": "Can we get an invoice for our accounts?",
+          "a": "Yes. We issue invoices and receipts for all business orders."
+        }
+      ],
+      "popularity": 8,
+      "dateAdded": "2026-10-07",
+      "crossSell": []
+    },
+    {
+      "id": "wholesaler-starter-pack",
+      "type": "bundle",
+      "name": "Wholesaler Starter Pack",
+      "tagline": "Stock your shelves",
+      "shortDescription": "Fast-selling 1L and 500ml Evafresh products in carton quantities for shops and market traders to resell.",
+      "description": "Start selling Evafresh in your shop, kiosk or market stall. This pack brings together our fastest-moving retail sizes in reseller quantities, at a lower price than buying single bottles, so you keep a good margin.",
+      "category": "kits",
+      "collections": [
+        "starter-packs",
+        "business-packs"
+      ],
+      "badge": "New",
+      "includes": [
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-lemon-1l",
+          "qty": 12
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-1l",
+          "qty": 12
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-1l",
+          "qty": 6
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-1l",
+          "qty": 6
+        },
+        {
+          "productId": "hand-body-soap",
+          "variantId": "hbs-classic-500",
+          "qty": 6
+        }
+      ],
+      "variants": [
+        {
+          "id": "wholesaler-starter-pack-pack",
+          "size": "42 retail units",
+          "price": 849
+        }
+      ],
+      "images": [
+        "/images/photos/real-products-white-1280.webp",
+        "/images/photos/real-lineup-mixed-1280.webp"
+      ],
+      "usedFor": [
+        "Shops and supermarkets",
+        "Market stalls",
+        "Kiosks and provision stores"
+      ],
+      "benefits": [
+        "Lower price per unit than single bottles",
+        "Fast-selling retail sizes",
+        "Ask about reseller pricing on repeat orders"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+      "faqs": [
+        {
+          "q": "Can I mix scents?",
+          "a": "Yes. Tell us your scent mix for the liquid soap when you order on WhatsApp."
+        },
+        {
+          "q": "Is there a recommended selling price?",
+          "a": "[PLACEHOLDER] Add your recommended retail prices here."
+        }
+      ],
+      "popularity": 9,
+      "dateAdded": "2026-10-07",
+      "crossSell": []
+    },
+    {
+      "id": "distributor-starter-pack",
+      "type": "bundle",
+      "name": "Distributor Starter Pack",
+      "tagline": "Bulk supply for distributors",
+      "shortDescription": "25L jerrycans and 5L jugs for distributors and bulk resellers who repack or supply other shops.",
+      "description": "Our largest pack, for distributors and bulk resellers. It combines 25L jerrycans of liquid soap and antiseptic with 5L jugs of floor cleaner, fabric softener and bleach: the lowest price per litre we offer. Contact us about distribution areas and volume pricing.",
+      "category": "kits",
+      "collections": [
+        "starter-packs",
+        "business-packs"
+      ],
+      "badge": "New",
+      "includes": [
+        {
+          "productId": "liquid-soap-bulk-refill",
+          "variantId": "mls-25-lemon",
+          "qty": 2
+        },
+        {
+          "productId": "antiseptic-bulk-refill",
+          "variantId": "ant-25l",
+          "qty": 1
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-5l",
+          "qty": 4
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-5l",
+          "qty": 4
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-5l",
+          "qty": 4
+        }
+      ],
+      "variants": [
+        {
+          "id": "distributor-starter-pack-pack",
+          "size": "Bulk pack (15 items)",
+          "price": 2290
+        }
+      ],
+      "images": [
+        "/images/photos/real-jugs-row-1280.webp",
+        "/images/photos/antiseptic-25l-1280.webp"
+      ],
+      "usedFor": [
+        "Distributors",
+        "Bulk resellers",
+        "Cleaning companies"
+      ],
+      "benefits": [
+        "Lowest price per litre",
+        "25L and 5L bulk sizes",
+        "Ask about distribution areas and volume pricing"
+      ],
+      "ingredients": "See each product's page for ingredients.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+      "faqs": [
+        {
+          "q": "Do you offer distributor pricing?",
+          "a": "Yes. Repeat distributor orders get volume pricing. Request a quote on our Wholesale page."
+        },
+        {
+          "q": "Can you deliver outside Kumasi?",
+          "a": "Yes, to any region. Delivery fees for bulk orders are confirmed when we confirm your order."
+        }
+      ],
+      "popularity": 10,
+      "dateAdded": "2026-10-07",
+      "crossSell": []
+    },
+    {
+      "id": "family-monthly-bundle",
+      "type": "bundle",
+      "name": "Family Monthly Bundle",
+      "tagline": "A month of clean, delivered",
+      "shortDescription": "Big-size liquid soap, floor cleaner, softener, bleach and body wash.",
+      "description": "One order to cover a busy family home for about a month (estimate — adjust to your experience). Big sizes, big savings.",
+      "category": "kits",
+      "collections": [
+        "bundles"
+      ],
+      "badge": "",
+      "includes": [
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-lemon-5l",
+          "qty": 1
+        },
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-2-5l",
+          "qty": 1
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-2-5l",
+          "qty": 1
+        },
+        {
+          "productId": "bleach",
+          "variantId": "bl-2-5l",
+          "qty": 1
+        },
+        {
+          "productId": "body-hand-wash",
+          "variantId": "bhw-lav-2-5l",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "fmb",
+          "size": "Bundle of 5",
+          "price": 299
+        }
+      ],
+      "images": [
+        "/images/photos/real-products-group-1280.webp",
+        "/images/photos/real-jugs-row-1280.webp"
+      ],
+      "usedFor": [
+        "Laundry",
+        "Dishes",
+        "Floors",
+        "Hand and body washing"
+      ],
+      "benefits": [
+        "Biggest savings",
+        "Qualifies for free Kumasi delivery"
+      ],
+      "ingredients": "See each product's page.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children. Never mix cleaning products.",
+      "faqs": [],
+      "popularity": 2,
+      "dateAdded": "2026-07-01",
+      "crossSell": [
+        "pump-dispenser"
+      ]
+    },
+    {
+      "id": "bulk-refill-bundle",
+      "type": "bundle",
+      "name": "Bulk Refill Bundle",
+      "tagline": "Stock up and save",
+      "shortDescription": "5L jugs of floor cleaner, softener, stain remover and liquid soap.",
+      "description": "Four 5L jugs for big households, guest houses and small businesses. Refill your smaller bottles and save.",
+      "category": "kits",
+      "collections": [
+        "bundles"
+      ],
+      "badge": "",
+      "includes": [
+        {
+          "productId": "floor-cleaner",
+          "variantId": "fc-5l",
+          "qty": 1
+        },
+        {
+          "productId": "fabric-softener",
+          "variantId": "fs-5l",
+          "qty": 1
+        },
+        {
+          "productId": "stain-remover",
+          "variantId": "sr-5l",
+          "qty": 1
+        },
+        {
+          "productId": "multipurpose-liquid-soap",
+          "variantId": "mls-strawberry-5l",
+          "qty": 1
+        }
+      ],
+      "variants": [
+        {
+          "id": "brb",
+          "size": "4 × 5L",
+          "price": 365
+        }
+      ],
+      "images": [
+        "/images/photos/real-jugs-row-1280.webp",
+        "/images/photos/real-products-white-1280.webp"
+      ],
+      "usedFor": [
+        "Large households",
+        "Guest houses",
+        "Small businesses"
+      ],
+      "benefits": [
+        "Save vs buying separately",
+        "Less plastic than many small bottles"
+      ],
+      "ingredients": "See each product's page.",
+      "howToUse": [
+        "Follow the directions on each product label."
+      ],
+      "dilution": [],
+      "safety": "Keep all products out of reach of children. Never mix cleaning products. Stain Remover is corrosive.",
+      "faqs": [],
+      "popularity": 5,
+      "dateAdded": "2026-06-01",
+      "crossSell": [
+        "pump-dispenser"
+      ]
+    }
+  ]
+}

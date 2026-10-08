@@ -1,0 +1,81 @@
+{
+  "order": 20,
+  "id": "multi-surface-cleaner",
+  "type": "product",
+  "name": "Evafresh Multi-Surface Cleaner",
+  "tagline": "Spray, wipe, done",
+  "shortDescription": "A trigger-spray cleaner and degreaser for counters, tables and tiles.",
+  "description": "Evafresh Multi-Surface Cleaner is a ready-to-use spray that lifts grease, fingerprints and everyday grime from kitchen counters, tables, appliances and tiles. Keep one in the kitchen and one in the bathroom.",
+  "category": "surface-cleaners",
+  "collections": [
+    "best-sellers"
+  ],
+  "badge": "Most Loved",
+  "variants": [
+    {
+      "id": "msc-750",
+      "size": "750ml spray",
+      "price": 30,
+      "image": "/images/photos/multi-surface-blue-1280.webp"
+    },
+    {
+      "id": "msc-2-5l",
+      "size": "2.5L refill",
+      "price": 70,
+      "image": "/images/photos/multi-surface-range-1280.webp"
+    },
+    {
+      "id": "msc-5l",
+      "size": "5L refill",
+      "price": 130,
+      "image": "/images/photos/multi-surface-range-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/multi-surface-range-1280.webp",
+    "/images/photos/multi-surface-blue-1280.webp",
+    "/images/photos/multi-surface-green-1280.webp"
+  ],
+  "usedFor": [
+    "Kitchen countertops",
+    "Dining tables",
+    "Fridge, cooker and microwave",
+    "Wall tiles",
+    "Doors and switches"
+  ],
+  "benefits": [
+    "Ready to use — no mixing",
+    "Cuts everyday grease",
+    "Refill the spray from the 2.5L or 5L"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Spray onto the surface from about 20cm.",
+    "Wipe with a clean, damp cloth.",
+    "For greasy areas, leave for 1 minute before wiping."
+  ],
+  "dilution": [
+    {
+      "use": "Spray bottle",
+      "ratio": "Ready to use — no dilution needed"
+    }
+  ],
+  "safety": "Keep out of reach of children. Do not spray near eyes or face. Do not mix with other cleaning products. Test on a small hidden area of delicate surfaces first.",
+  "faqs": [
+    {
+      "q": "Can I refill my spray bottle?",
+      "a": "Yes. Buy the 2.5L or 5L refill and top up your trigger spray bottle."
+    }
+  ],
+  "popularity": 2,
+  "dateAdded": "2026-03-01",
+  "lineupOrder": 2,
+  "crossSell": [
+    "glass-cleaner",
+    "ultra-cleaner",
+    "refillable-spray-bottle"
+  ],
+  "alsoIn": [
+    "bathroom"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "order": 80,
+  "id": "ultra-cleaner",
+  "type": "product",
+  "name": "Evafresh Ultra Cleaner",
+  "tagline": "Heavy-duty power",
+  "shortDescription": "Heavy-duty cleaner that cuts tough grease and grime.",
+  "description": "When everyday cleaners aren't enough, Evafresh Ultra Cleaner cuts through heavy grease and built-up grime on cookers, extractor hoods, garage floors and workshop surfaces.",
+  "category": "surface-cleaners",
+  "collections": [],
+  "badge": "New",
+  "variants": [
+    {
+      "id": "uc-1l",
+      "size": "1L",
+      "price": 35,
+      "image": "/images/photos/ultra-cleaner-range-1280.webp"
+    },
+    {
+      "id": "uc-2-5l",
+      "size": "2.5L",
+      "price": 80,
+      "image": "/images/photos/ultra-cleaner-range-1280.webp"
+    },
+    {
+      "id": "uc-5l",
+      "size": "5L",
+      "price": 150,
+      "image": "/images/photos/ultra-cleaner-range-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/ultra-cleaner-range-1280.webp"
+  ],
+  "usedFor": [
+    "Cookers and gas stoves",
+    "Extractor hoods",
+    "Garage and workshop floors",
+    "Heavily soiled surfaces"
+  ],
+  "benefits": [
+    "Heavy-duty strength",
+    "Cuts grease and grime"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Wear gloves.",
+    "Dilute as directed for heavy-duty cleaning.",
+    "Apply, leave briefly, scrub and rinse well."
+  ],
+  "dilution": [
+    {
+      "use": "Heavy grease",
+      "ratio": "[PLACEHOLDER] Add your tested dilution"
+    }
+  ],
+  "safety": "Keep out of reach of children. Wear gloves. Avoid contact with eyes and skin. Do not mix with other cleaning products. Test on a small hidden area first.",
+  "faqs": [],
+  "popularity": 10,
+  "dateAdded": "2026-08-15",
+  "lineupOrder": 8,
+  "crossSell": [
+    "multi-surface-cleaner",
+    "floor-cleaner"
+  ],
+  "alsoIn": [
+    "floor-cleaners"
+  ]
+}

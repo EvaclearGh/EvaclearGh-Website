@@ -1,0 +1,101 @@
+{
+  "_note": "Business details. Replace every value marked [PLACEHOLDER] with your real details.",
+  "name": "Evaclear",
+  "legalName": "Evaclear Trading Enterprise",
+  "siteUrl": "https://www.evacleartradingenterprise.com",
+  "tagline": "Clean homes. Safe families.",
+  "taglineAlternatives": [
+    "Tough on dirt. Gentle on home.",
+    "Spotless homes, peace of mind.",
+    "Everyday clean, made kinder."
+  ],
+  "defaultDescription": "Evaclear Trading Enterprise sells Evafresh home cleaning products from Kumasi, Ghana: multipurpose liquid soap, floor cleaner, bleach, fabric softener, body & hand wash and bulk refills, with delivery across Ghana.",
+  "whatsapp": {
+    "_note": "International format, digits only, no + or spaces.",
+    "number": "233256116151",
+    "greeting": "Hello Evaclear! I'd like to ask about your cleaning products.",
+    "display": "+233 25 611 6151"
+  },
+  "phone": "+233 54 349 6952",
+  "email": "info@evacleartradingenterprise.com",
+  "address": {
+    "street": "Plot 18 Antwi Agyei Avenue",
+    "area": "Boko",
+    "city": "Kumasi",
+    "region": "Ashanti",
+    "gps": "AH-1120-2270",
+    "country": "Ghana"
+  },
+  "openingHours": "Mon–Sat, 8:00am – 6:00pm",
+  "mapEmbedQuery": "Antwi Agyei Avenue, Boko, Kumasi, Ghana",
+  "social": {
+    "instagram": "https://instagram.com/evaclear",
+    "facebook": "https://facebook.com/evaclear",
+    "tiktok": "https://tiktok.com/@evaclear"
+  },
+  "announcement": {
+    "text": "Free delivery in Kumasi on orders above",
+    "linkText": "Shop Now",
+    "link": "/shop"
+  },
+  "newsletter": {
+    "_note": "Optional: paste a Formspree / Mailchimp / Brevo form endpoint. Leave empty to only show a thank-you message.",
+    "endpoint": ""
+  },
+  "forms": {
+    "_note": "Optional: a Formspree (or similar) endpoint for the Contact and Wholesale forms. If empty, the form opens WhatsApp with the details pre-filled.",
+    "contactEndpoint": "",
+    "wholesaleEndpoint": ""
+  },
+  "popularSearches": [
+    "Liquid soap",
+    "Bleach",
+    "Floor cleaner",
+    "Fabric softener",
+    "25L refill",
+    "Body wash",
+    "Starter kit"
+  ],
+  "claims": {
+    "_note": "Only switch a claim to true once you have confirmed it is accurate (and certified where required). While previewUnconfirmed is true, unconfirmed claims still show with a 'Needs confirmation' tag so you can see the design. Set previewUnconfirmed to false BEFORE launch and unconfirmed claims disappear.",
+    "previewUnconfirmed": false,
+    "gentleOnSkin": true,
+    "toughOnStains": true,
+    "locallyMade": true,
+    "valueConcentrates": true,
+    "lessPlastic": true,
+    "safeAroundKids": true
+  },
+  "productBrand": "Evafresh",
+  "phones": [
+    "+233 54 349 6952",
+    "+233 24 596 5755",
+    "+233 25 611 6151"
+  ],
+  "_phones_note": "'phone' is the main number (used for Google). 'phones' lists every number shown on the site — add or remove freely. WhatsApp orders go to whatsapp.number.",
+  "momo": {
+    "_note": "Direct mobile money payment shown at checkout. Customers send the order total to this wallet, then enter the transaction ID. Check each payment in your MoMo statement before dispatching. Set enabled to false to hide it.",
+    "enabled": true,
+    "network": "MTN MoMo",
+    "number": "0256116151",
+    "display": "025 611 6151",
+    "accountName": "Evaclear Trading Enterprise",
+    "ussd": "*170#"
+  },
+  "bank": {
+    "_note": "Bank account for bank transfers, cash deposits, cheques and card (VISA) settlements. Shown at checkout, in the Help Centre, on the Wholesale page and in the Terms. Set enabled to false to hide the bank option at checkout.",
+    "enabled": true,
+    "accountName": "Evaclear Trading Enterprise",
+    "bankName": "Ecobank",
+    "branch": "Harper Road, Adum Branch",
+    "accountNumber": "1441005160147"
+  },
+  "notifications": {
+    "_note": "When true (and Supabase is set up), every order is saved and a copy is sent automatically to the company WhatsApp by the database (see supabase/notifications.sql). Customers no longer need to tap Send in WhatsApp. Set to false to go back to customers sending the order themselves.",
+    "whatsappAlerts": true
+  },
+  "app": {
+    "_note": "Paste the Google Play link here once the Android app is live (e.g. https://play.google.com/store/apps/details?id=com.evacleartradingenterprise.app). Leave empty to hide the 'Get the app' link.",
+    "playStoreUrl": ""
+  }
+}

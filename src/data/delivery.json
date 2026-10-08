@@ -1,0 +1,43 @@
+{
+  "_note": "Delivery settings. All amounts in GHS. 'homeArea' is the city named in the 'free delivery' messages. Fees and times are [PLACEHOLDER] values — replace with your real ones.",
+  "currency": "GHS",
+  "freeDeliveryThreshold": 300,
+  "zones": [
+    {
+      "id": "kumasi",
+      "name": "Kumasi",
+      "fee": 25,
+      "freeAboveThreshold": true,
+      "estimate": "Same day if ordered before 12pm, otherwise next working day"
+    },
+    {
+      "id": "ashanti",
+      "name": "Rest of Ashanti Region",
+      "fee": 35,
+      "freeAboveThreshold": false,
+      "estimate": "1–2 working days"
+    },
+    {
+      "id": "accra",
+      "name": "Accra & Tema",
+      "fee": 50,
+      "freeAboveThreshold": false,
+      "estimate": "2–3 working days"
+    },
+    {
+      "id": "other",
+      "name": "Other regions",
+      "fee": 60,
+      "freeAboveThreshold": false,
+      "estimate": "3–5 working days (courier or bus station pickup)"
+    }
+  ],
+  "pickup": {
+    "enabled": true,
+    "name": "Pick up from our Boko office",
+    "fee": 0,
+    "estimate": "Ready within 2 hours during opening hours",
+    "address": "Plot 18 Antwi Agyei Avenue, Boko (Digital address: AH-1120-2270)"
+  },
+  "homeArea": "Kumasi"
+}

@@ -1,0 +1,59 @@
+{
+  "order": 100,
+  "id": "hand-body-soap",
+  "type": "product",
+  "name": "Evafresh Hand & Body Soap",
+  "tagline": "Long-lasting freshness",
+  "shortDescription": "Hand and body soap in a pump bottle, Classic or Lavender.",
+  "description": "A long-lasting, fresh liquid hand and body soap in a convenient pump bottle. Choose Classic or Lavender.",
+  "category": "hand-care",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "hbs-classic-500",
+      "scent": "Classic",
+      "size": "500ml pump",
+      "price": 35,
+      "image": "/images/photos/hand-body-soap-classic-1280.webp"
+    },
+    {
+      "id": "hbs-lavender-500",
+      "scent": "Lavender",
+      "size": "500ml pump",
+      "price": 35,
+      "image": "/images/photos/hand-body-soap-lavender-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/hand-body-soap-classic-1280.webp",
+    "/images/photos/hand-body-soap-lavender-1280.webp"
+  ],
+  "usedFor": [
+    "Hand washing",
+    "Shower and bath"
+  ],
+  "benefits": [
+    "Long-lasting fresh scent",
+    "Convenient pump bottle"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Pump onto wet hands.",
+    "Lather for 20 seconds and rinse."
+  ],
+  "dilution": [
+    {
+      "use": "Pump bottle",
+      "ratio": "Ready to use — no dilution needed"
+    }
+  ],
+  "safety": "For external use only. Avoid contact with eyes.",
+  "faqs": [],
+  "popularity": 9,
+  "dateAdded": "2026-05-20",
+  "crossSell": [
+    "body-hand-wash",
+    "antiseptic"
+  ]
+}

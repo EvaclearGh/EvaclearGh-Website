@@ -1,0 +1,79 @@
+{
+  "order": 110,
+  "id": "antiseptic",
+  "type": "product",
+  "name": "Evafresh Antiseptic Disinfectant Liquid",
+  "tagline": "Everyday hygiene for home and work",
+  "shortDescription": "Antiseptic disinfectant liquid for floors, surfaces and laundry rinses.",
+  "description": "Evafresh Antiseptic Disinfectant Liquid adds an extra hygiene step to your cleaning routine: dilute it for floors, bathrooms and surfaces, or add it to your laundry rinse. Available from 1L for homes up to 25L for schools, hotels and offices.",
+  "category": "hand-care",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "ant-1l",
+      "size": "1L",
+      "price": 40,
+      "image": "/images/photos/antiseptic-range-1280.webp"
+    },
+    {
+      "id": "ant-2-5l",
+      "size": "2.5L",
+      "price": 90,
+      "image": "/images/photos/antiseptic-range-1280.webp"
+    },
+    {
+      "id": "ant-5l",
+      "size": "5L",
+      "price": 170,
+      "image": "/images/photos/antiseptic-5l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/antiseptic-range-1280.webp",
+    "/images/photos/antiseptic-5l-1280.webp",
+    "/images/photos/antiseptic-25l-1280.webp"
+  ],
+  "usedFor": [
+    "Bathroom and toilet surfaces",
+    "Floors (diluted)",
+    "Laundry rinse",
+    "Schools, offices and hotels"
+  ],
+  "benefits": [
+    "Extra hygiene step",
+    "Home and bulk sizes"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the active ingredient(s) and concentration exactly as printed on your label.",
+  "howToUse": [
+    "Always dilute before use, following the label.",
+    "Floors and surfaces: add to water, wipe or mop.",
+    "Laundry: add to the final rinse."
+  ],
+  "dilution": [
+    {
+      "use": "Floors and surfaces",
+      "ratio": "[PLACEHOLDER] Add your label dilution"
+    },
+    {
+      "use": "Laundry rinse",
+      "ratio": "[PLACEHOLDER] Add your label dilution"
+    }
+  ],
+  "safety": "Keep out of reach of children. Always dilute. Avoid contact with eyes. Do not swallow. Do not mix with other cleaning products.",
+  "faqs": [
+    {
+      "q": "Which germs does it kill?",
+      "a": "[PLACEHOLDER] Only state germ-kill claims that are approved/certified for your product (e.g. by the Ghana FDA)."
+    }
+  ],
+  "popularity": 11,
+  "dateAdded": "2026-05-01",
+  "crossSell": [
+    "floor-cleaner",
+    "body-hand-wash"
+  ],
+  "alsoIn": [
+    "bathroom"
+  ]
+}

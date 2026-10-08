@@ -1,0 +1,115 @@
+{
+  "_note": "SAMPLE STOCKISTS — fictional examples. Replace with your real shops. 'mapQuery' is what gets searched on Google Maps.",
+  "stockists": [
+    {
+      "name": "Sample Stockist — Adum Cleaning Supplies",
+      "area": "Adum",
+      "city": "Kumasi",
+      "region": "Ashanti",
+      "address": "Adum",
+      "phone": "+233 20 000 0006",
+      "type": "Shop",
+      "mapQuery": "Adum, Kumasi"
+    },
+    {
+      "name": "Sample Stockist — Ahodwo Mini Mart",
+      "area": "Ahodwo",
+      "city": "Kumasi",
+      "region": "Ashanti",
+      "address": "Ahodwo",
+      "phone": "+233 20 000 0007",
+      "type": "Supermarket",
+      "mapQuery": "Ahodwo, Kumasi"
+    },
+    {
+      "name": "Sample Stockist — East Legon Mini Mart",
+      "area": "East Legon",
+      "city": "Accra",
+      "region": "Greater Accra",
+      "address": "Example Road, East Legon",
+      "phone": "+233 20 000 0001",
+      "type": "Supermarket",
+      "mapQuery": "East Legon, Accra"
+    },
+    {
+      "name": "Sample Stockist — Osu Home Essentials",
+      "area": "Osu",
+      "city": "Accra",
+      "region": "Greater Accra",
+      "address": "Example Street, Osu",
+      "phone": "+233 20 000 0002",
+      "type": "Shop",
+      "mapQuery": "Osu, Accra"
+    },
+    {
+      "name": "Sample Stockist — Madina Market Stall 14",
+      "area": "Madina",
+      "city": "Accra",
+      "region": "Greater Accra",
+      "address": "Madina Market",
+      "phone": "+233 20 000 0003",
+      "type": "Market stall",
+      "mapQuery": "Madina Market, Accra"
+    },
+    {
+      "name": "Sample Stockist — Spintex Family Store",
+      "area": "Spintex",
+      "city": "Accra",
+      "region": "Greater Accra",
+      "address": "Spintex Road",
+      "phone": "+233 20 000 0004",
+      "type": "Supermarket",
+      "mapQuery": "Spintex Road, Accra"
+    },
+    {
+      "name": "Sample Stockist — Community 11 Provisions",
+      "area": "Community 11",
+      "city": "Tema",
+      "region": "Greater Accra",
+      "address": "Community 11",
+      "phone": "+233 20 000 0005",
+      "type": "Shop",
+      "mapQuery": "Community 11, Tema"
+    },
+    {
+      "name": "Sample Stockist — Cape Coast Home Store",
+      "area": "Kotokuraba",
+      "city": "Cape Coast",
+      "region": "Central",
+      "address": "Kotokuraba Market area",
+      "phone": "+233 20 000 0008",
+      "type": "Shop",
+      "mapQuery": "Kotokuraba, Cape Coast"
+    },
+    {
+      "name": "Sample Stockist — Takoradi Market Circle",
+      "area": "Market Circle",
+      "city": "Takoradi",
+      "region": "Western",
+      "address": "Market Circle",
+      "phone": "+233 20 000 0009",
+      "type": "Market stall",
+      "mapQuery": "Market Circle, Takoradi"
+    },
+    {
+      "name": "Sample Stockist — Tamale Central Provisions",
+      "area": "Central",
+      "city": "Tamale",
+      "region": "Northern",
+      "address": "Central Market",
+      "phone": "+233 20 000 0010",
+      "type": "Shop",
+      "mapQuery": "Tamale Central Market"
+    },
+    {
+      "name": "Sample Stockist — Ho Family Mart",
+      "area": "Ho Central",
+      "city": "Ho",
+      "region": "Volta",
+      "address": "Ho Central",
+      "phone": "+233 20 000 0011",
+      "type": "Supermarket",
+      "mapQuery": "Ho, Volta"
+    }
+  ]
+}

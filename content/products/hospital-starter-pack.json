@@ -1,0 +1,84 @@
+{
+  "order": 240,
+  "id": "hospital-starter-pack",
+  "type": "bundle",
+  "name": "Hospital & Clinic Starter Pack",
+  "tagline": "Cleaning essentials for clinics",
+  "shortDescription": "Antiseptic disinfectant liquid, bleach, floor and surface cleaners and hand wash for hospitals, clinics and pharmacies.",
+  "description": "A bulk cleaning pack for hospitals, clinics, maternity homes and pharmacies: antiseptic disinfectant liquid and bleach for routine cleaning, floor and surface cleaners for wards and corridors, and body & hand wash for staff and patient wash areas. Use alongside your facility's own infection-control procedures.",
+  "category": "kits",
+  "collections": [
+    "starter-packs",
+    "business-packs"
+  ],
+  "badge": "New",
+  "includes": [
+    {
+      "productId": "antiseptic",
+      "variantId": "ant-5l",
+      "qty": 2
+    },
+    {
+      "productId": "bleach",
+      "variantId": "bl-5l",
+      "qty": 2
+    },
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-5l",
+      "qty": 1
+    },
+    {
+      "productId": "multi-surface-cleaner",
+      "variantId": "msc-5l",
+      "qty": 1
+    },
+    {
+      "productId": "body-hand-wash",
+      "variantId": "bhw-lav-4-5l",
+      "qty": 1
+    }
+  ],
+  "variants": [
+    {
+      "id": "hospital-starter-pack-pack",
+      "size": "Pack of 7 items",
+      "price": 779
+    }
+  ],
+  "images": [
+    "/images/photos/antiseptic-range-1280.webp",
+    "/images/photos/antiseptic-5l-1280.webp"
+  ],
+  "usedFor": [
+    "Wards and corridors",
+    "Consulting rooms",
+    "Toilets and wash areas",
+    "Staff hand-washing points",
+    "Laundry"
+  ],
+  "benefits": [
+    "Save vs buying separately",
+    "Bulk 5L sizes",
+    "Ask about monthly scheduled delivery"
+  ],
+  "ingredients": "See each product's page for ingredients.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+  "faqs": [
+    {
+      "q": "Are these products certified for medical disinfection?",
+      "a": "[PLACEHOLDER] State only certifications your products actually hold (e.g. Ghana FDA registration numbers). Until then, use them for general cleaning alongside your facility's approved disinfectants."
+    },
+    {
+      "q": "Can we get an invoice for our accounts?",
+      "a": "Yes. We issue invoices and receipts for all business orders."
+    }
+  ],
+  "popularity": 8,
+  "dateAdded": "2026-10-07",
+  "crossSell": []
+}

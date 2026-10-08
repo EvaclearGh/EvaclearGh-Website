@@ -1,0 +1,45 @@
+{
+  "order": 150,
+  "id": "fabric-softener-refill",
+  "type": "product",
+  "name": "Fabric Softener — 5L Refill Jug",
+  "tagline": "Soft laundry for months",
+  "shortDescription": "5L jug of Evafresh Afterwash & Fabric Softener.",
+  "description": "Our Afterwash & Fabric Softener in a 5L jug for big families, laundries and hotels.",
+  "category": "laundry",
+  "collections": [
+    "refills"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "fs-refill-5l",
+      "size": "5L",
+      "price": 120,
+      "image": "/images/photos/fabric-softener-5l-2-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/fabric-softener-5l-2-1280.webp",
+    "/images/photos/fabric-softener-5l-1280.webp"
+  ],
+  "usedFor": [
+    "Refilling smaller bottles",
+    "Laundries and hotels"
+  ],
+  "benefits": [
+    "Lower cost per wash"
+  ],
+  "ingredients": "Same as Evafresh Afterwash & Fabric Softener.",
+  "howToUse": [
+    "Add to the final rinse."
+  ],
+  "dilution": [],
+  "safety": "Keep out of reach of children.",
+  "faqs": [],
+  "popularity": 15,
+  "dateAdded": "2026-08-20",
+  "crossSell": [
+    "fabric-softener"
+  ]
+}

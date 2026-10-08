@@ -1,0 +1,107 @@
+{
+  "_note": "Help Centre questions. SAMPLE answers — check each one matches your actual policies.",
+  "groups": [
+    {
+      "id": "delivery",
+      "title": "Delivery",
+      "items": [
+        {
+          "q": "Where do you deliver?",
+          "a": "We're based in Kumasi and deliver across Kumasi and the rest of the Ashanti Region, to Accra and Tema, and to other regions by courier or bus-station pickup. Delivery fees are calculated at checkout based on your area."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Delivery fees depend on your zone and are shown at checkout. Orders in Kumasi above the free-delivery amount shown at the top of the site are delivered free."
+        },
+        {
+          "q": "How long will my order take?",
+          "a": "Kumasi orders placed before 12pm are usually delivered the same day; otherwise the next working day. Rest of Ashanti 1–2 days, Accra and Tema 2–3 days, other regions 3–5 days."
+        },
+        {
+          "q": "Can I pick up my order?",
+          "a": "Yes. Choose 'Pick up' at checkout and collect from our office at Plot 18 Antwi Agyei Avenue, Boko (AH-1120-2270) during opening hours. We'll message you when it's ready."
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "title": "Payment",
+      "items": [
+        {
+          "q": "How can I pay?",
+          "a": "Pay by Mobile Money to our MTN MoMo number 025 611 6151 (Evaclear Trading Enterprise), or by bank transfer, cash deposit or cheque into our Ecobank account: Evaclear Trading Enterprise, Ecobank Harper Road, Adum Branch, account number 1441005160147. You can also order on WhatsApp first and pay when we confirm your order."
+        },
+        {
+          "q": "Can I pay by cheque or bank deposit?",
+          "a": "Yes. Make cheques payable to Evaclear Trading Enterprise. Deposits and transfers go to Ecobank, Harper Road, Adum Branch, account number 1441005160147. Use your order reference, and send us a photo of the slip or receipt on WhatsApp. Orders paid by cheque are dispatched once the cheque clears."
+        },
+        {
+          "q": "How do I know my MoMo payment is safe?",
+          "a": "Before you enter your PIN, check that the name shown is Evaclear Trading Enterprise. We will never ask for your MoMo PIN. We confirm every payment against our MoMo statement before dispatching your order."
+        },
+        {
+          "q": "Do you offer pay on delivery?",
+          "a": "SAMPLE — For Kumasi orders placed on WhatsApp we can accept mobile money on delivery. Update this answer to match your policy."
+        },
+        {
+          "q": "Can my business buy on credit?",
+          "a": "Yes. Businesses and institutions (and regular individual customers) can apply for a credit account under My Account → Create an account. Our team reviews each application, then sets your credit limit and payment terms. Once approved, choose 'Buy on credit' at checkout and pay by the due date shown in your account by MoMo, bank transfer, deposit or cheque."
+        }
+      ]
+    },
+    {
+      "id": "returns",
+      "title": "Refunds & returns",
+      "items": [
+        {
+          "q": "What if my order arrives damaged?",
+          "a": "Send us a photo on WhatsApp within 48 hours of delivery and we'll replace the item or refund you."
+        },
+        {
+          "q": "Can I return a product I don't like?",
+          "a": "SAMPLE — Unopened products can be returned within 7 days. Opened products can't be returned for hygiene reasons unless faulty. Update to match your policy."
+        },
+        {
+          "q": "How long do refunds take?",
+          "a": "Refunds go back to your original payment method, usually within 3–5 working days."
+        }
+      ]
+    },
+    {
+      "id": "usage",
+      "title": "Using our products",
+      "items": [
+        {
+          "q": "What does 'concentrate' mean?",
+          "a": "Concentrates are mixed with water before use. A small bottle makes many bottles of ready-to-use cleaner, so you pay less and use less plastic."
+        },
+        {
+          "q": "How do refills work?",
+          "a": "Keep your Evaclear bottle and top it up from a refill pouch or jug. See our How It Works page for step-by-step pictures."
+        },
+        {
+          "q": "Can I mix Evaclear products together?",
+          "a": "No. Never mix cleaning products together, including with bleach. Use one product at a time and rinse between them."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Safety",
+      "items": [
+        {
+          "q": "Are your products safe around children?",
+          "a": "Keep all cleaning products, including ours, out of reach of children and pets, and store them in their original labelled bottles. Follow the directions and warnings on each label."
+        },
+        {
+          "q": "What should I do if a product gets in someone's eyes?",
+          "a": "Rinse immediately with plenty of clean water for several minutes. If irritation continues, see a doctor and take the product label with you."
+        },
+        {
+          "q": "Where can I see the ingredients?",
+          "a": "Every product page lists the ingredients under 'Ingredients & how to use', and they are printed on each label."
+        }
+      ]
+    }
+  ]
+}

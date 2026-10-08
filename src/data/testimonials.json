@@ -1,0 +1,45 @@
+{
+  "_note": "SAMPLE TESTIMONIALS — placeholder people, clearly labelled on the site. Replace with real customers (with their permission) and set 'sample' to false.",
+  "testimonials": [
+    {
+      "headline": "“I finally have one routine for the whole house.”",
+      "quote": "Before, I had six different products under the sink. Now it's Evafresh for the kitchen, bathroom and floors, and I buy the big refills.",
+      "name": "Ama O.",
+      "location": "Ahodwo, Kumasi",
+      "image": "/images/avatars/avatar-1.svg",
+      "product": "Whole Home Starter Kit",
+      "sample": true,
+      "productImage": "/images/photos/real-products-table-1280.webp"
+    },
+    {
+      "headline": "“Laundry day is so much easier.”",
+      "quote": "Five children, five sets of school uniforms. The liquid soap and softener make washing and ironing so much quicker.",
+      "name": "Kofi A.",
+      "location": "Accra",
+      "image": "/images/avatars/avatar-2.svg",
+      "product": "Laundry Care Pack",
+      "sample": true,
+      "productImage": "/images/photos/body-hand-wash-lavender-1280.webp"
+    },
+    {
+      "headline": "“Our guests notice the difference.”",
+      "quote": "We use the floor cleaner and body & hand wash in all our guest rooms. Delivery to Tema is always on time.",
+      "name": "Esi M.",
+      "location": "Tema (guest house owner)",
+      "image": "/images/avatars/avatar-3.svg",
+      "product": "Body & Hand Wash",
+      "sample": true,
+      "productImage": "/images/photos/real-products-white-1280.webp"
+    },
+    {
+      "headline": "“Ordering on WhatsApp is so easy.”",
+      "quote": "I add what I need to the cart, tap WhatsApp, and they confirm in minutes. I pay with MoMo on delivery.",
+      "name": "Yaa B.",
+      "location": "Bantama, Kumasi",
+      "image": "/images/avatars/avatar-4.svg",
+      "product": "Kitchen Starter Kit",
+      "sample": true,
+      "productImage": "/images/photos/liquid-soap-lemon-bottle-1280.webp"
+    }
+  ]
+}

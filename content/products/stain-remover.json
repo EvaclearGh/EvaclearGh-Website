@@ -1,0 +1,83 @@
+{
+  "order": 50,
+  "id": "stain-remover",
+  "type": "product",
+  "name": "Evafresh Stain Remover",
+  "tagline": "For the toughest stains",
+  "shortDescription": "Acid formula that removes tough stains, limescale and rust. For whites only.",
+  "description": "Evafresh Stain Remover is a powerful acid formula (HCl + citric acid) that tackles tough stains, limescale and rust marks and helps whiten and brighten white items. Handle with care: it is corrosive. Always read the label and wear gloves.",
+  "category": "laundry",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "sr-750",
+      "size": "750ml",
+      "price": 25,
+      "image": "/images/photos/stain-remover-bottle-1280.webp"
+    },
+    {
+      "id": "sr-2-5l",
+      "size": "2.5L",
+      "price": 55,
+      "image": "/images/photos/stain-remover-range-1280.webp"
+    },
+    {
+      "id": "sr-5l",
+      "size": "5L",
+      "price": 100,
+      "image": "/images/photos/stain-remover-5l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/stain-remover-range-1280.webp",
+    "/images/photos/stain-remover-range-2-1280.webp",
+    "/images/photos/stain-remover-bottle-1280.webp",
+    "/images/photos/stain-remover-5l-1280.webp"
+  ],
+  "usedFor": [
+    "Tough stains on whites",
+    "Limescale on taps and tiles",
+    "Rust marks",
+    "Toilet bowl stains"
+  ],
+  "benefits": [
+    "Powerful acid formula",
+    "Removes limescale and rust",
+    "Whitens and brightens"
+  ],
+  "ingredients": "Hydrochloric acid (HCl), citric acid. [PLACEHOLDER] Add the full list and concentrations from your label.",
+  "howToUse": [
+    "Put on rubber gloves and open a window.",
+    "Apply a small amount to the stain (or dilute as directed on the label).",
+    "Leave for a short time only — do not leave on surfaces for long.",
+    "Rinse thoroughly with clean water."
+  ],
+  "dilution": [
+    {
+      "use": "As directed on the label",
+      "ratio": "[PLACEHOLDER] Add your tested dilution"
+    }
+  ],
+  "safety": "DANGER: CORROSIVE. Causes burns to skin and eyes. Wear gloves and eye protection. Never mix with bleach or other cleaners — toxic gas can be released. Use in a well-ventilated area. Not for coloured fabrics, marble, natural stone, aluminium or enamel. Keep locked up and out of reach of children. If on skin or in eyes, rinse with plenty of water for 15 minutes and seek medical help.",
+  "faqs": [
+    {
+      "q": "Can I use it on coloured clothes?",
+      "a": "No. Stain Remover is for whites only."
+    },
+    {
+      "q": "Is it safe on marble?",
+      "a": "No. Acids damage marble and natural stone."
+    }
+  ],
+  "popularity": 7,
+  "dateAdded": "2026-04-10",
+  "lineupOrder": 5,
+  "crossSell": [
+    "bleach",
+    "fabric-softener"
+  ],
+  "alsoIn": [
+    "bathroom"
+  ]
+}

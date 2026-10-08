@@ -1,0 +1,61 @@
+{
+  "order": 70,
+  "id": "glass-cleaner",
+  "type": "product",
+  "name": "Evafresh Glass Cleaner",
+  "tagline": "Crystal clear, streak free",
+  "shortDescription": "Clear, streak-free windows, mirrors and glass tables.",
+  "description": "Evafresh Glass Cleaner removes dust, fingerprints and smudges from windows, mirrors, louvres and glass tables for a clear, streak-free finish.",
+  "category": "surface-cleaners",
+  "collections": [],
+  "badge": "",
+  "variants": [
+    {
+      "id": "gc-750",
+      "size": "750ml spray",
+      "price": 25,
+      "image": "/images/photos/glass-cleaner-range-1280.webp"
+    },
+    {
+      "id": "gc-2-5l",
+      "size": "2.5L refill",
+      "price": 55,
+      "image": "/images/photos/glass-cleaner-range-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/glass-cleaner-range-1280.webp"
+  ],
+  "usedFor": [
+    "Windows and louvres",
+    "Mirrors",
+    "Glass tables and shelves",
+    "Shop display cabinets"
+  ],
+  "benefits": [
+    "Streak-free finish",
+    "Fast drying",
+    "Removes fingerprints and dust"
+  ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
+  "howToUse": [
+    "Spray lightly onto the glass.",
+    "Wipe with a dry, lint-free cloth.",
+    "Buff with a second dry cloth for extra shine."
+  ],
+  "dilution": [
+    {
+      "use": "Spray bottle",
+      "ratio": "Ready to use — no dilution needed"
+    }
+  ],
+  "safety": "Keep out of reach of children. Avoid spraying near eyes. Do not spray directly onto electronic screens.",
+  "faqs": [],
+  "popularity": 8,
+  "dateAdded": "2026-04-10",
+  "lineupOrder": 7,
+  "crossSell": [
+    "multi-surface-cleaner",
+    "refillable-spray-bottle"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "order": 250,
+  "id": "wholesaler-starter-pack",
+  "type": "bundle",
+  "name": "Wholesaler Starter Pack",
+  "tagline": "Stock your shelves",
+  "shortDescription": "Fast-selling 1L and 500ml Evafresh products in carton quantities for shops and market traders to resell.",
+  "description": "Start selling Evafresh in your shop, kiosk or market stall. This pack brings together our fastest-moving retail sizes in reseller quantities, at a lower price than buying single bottles, so you keep a good margin.",
+  "category": "kits",
+  "collections": [
+    "starter-packs",
+    "business-packs"
+  ],
+  "badge": "New",
+  "includes": [
+    {
+      "productId": "multipurpose-liquid-soap",
+      "variantId": "mls-lemon-1l",
+      "qty": 12
+    },
+    {
+      "productId": "bleach",
+      "variantId": "bl-1l",
+      "qty": 12
+    },
+    {
+      "productId": "floor-cleaner",
+      "variantId": "fc-1l",
+      "qty": 6
+    },
+    {
+      "productId": "fabric-softener",
+      "variantId": "fs-1l",
+      "qty": 6
+    },
+    {
+      "productId": "hand-body-soap",
+      "variantId": "hbs-classic-500",
+      "qty": 6
+    }
+  ],
+  "variants": [
+    {
+      "id": "wholesaler-starter-pack-pack",
+      "size": "42 retail units",
+      "price": 849
+    }
+  ],
+  "images": [
+    "/images/photos/real-products-white-1280.webp",
+    "/images/photos/real-lineup-mixed-1280.webp"
+  ],
+  "usedFor": [
+    "Shops and supermarkets",
+    "Market stalls",
+    "Kiosks and provision stores"
+  ],
+  "benefits": [
+    "Lower price per unit than single bottles",
+    "Fast-selling retail sizes",
+    "Ask about reseller pricing on repeat orders"
+  ],
+  "ingredients": "See each product's page for ingredients.",
+  "howToUse": [
+    "Follow the directions on each product label."
+  ],
+  "dilution": [],
+  "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
+  "faqs": [
+    {
+      "q": "Can I mix scents?",
+      "a": "Yes. Tell us your scent mix for the liquid soap when you order on WhatsApp."
+    },
+    {
+      "q": "Is there a recommended selling price?",
+      "a": "[PLACEHOLDER] Add your recommended retail prices here."
+    }
+  ],
+  "popularity": 9,
+  "dateAdded": "2026-10-07",
+  "crossSell": []
+}

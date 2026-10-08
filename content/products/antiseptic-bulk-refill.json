@@ -1,0 +1,45 @@
+{
+  "order": 160,
+  "id": "antiseptic-bulk-refill",
+  "type": "product",
+  "name": "Antiseptic Disinfectant — 25L Bulk",
+  "tagline": "For schools, hotels and offices",
+  "shortDescription": "25L jerrycan of Evafresh Antiseptic Disinfectant Liquid.",
+  "description": "Our antiseptic disinfectant liquid in a 25L jerrycan for institutions, cleaning companies and resellers.",
+  "category": "hand-care",
+  "collections": [
+    "refills"
+  ],
+  "badge": "",
+  "variants": [
+    {
+      "id": "ant-25l",
+      "size": "25L",
+      "price": 750,
+      "image": "/images/photos/antiseptic-25l-1280.webp"
+    }
+  ],
+  "images": [
+    "/images/photos/antiseptic-25l-1280.webp"
+  ],
+  "usedFor": [
+    "Schools, hotels and offices",
+    "Cleaning companies",
+    "Resellers"
+  ],
+  "benefits": [
+    "Lowest price per litre"
+  ],
+  "ingredients": "Same as Evafresh Antiseptic Disinfectant Liquid.",
+  "howToUse": [
+    "Always dilute before use, following the label."
+  ],
+  "dilution": [],
+  "safety": "Keep out of reach of children. Always dilute. Heavy — lift with care.",
+  "faqs": [],
+  "popularity": 16,
+  "dateAdded": "2026-06-01",
+  "crossSell": [
+    "antiseptic"
+  ]
+}
