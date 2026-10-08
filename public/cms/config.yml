@@ -7,7 +7,7 @@
 
 backend:
   name: github
-  repo: EvaclearGh/evaclear-website
+  repo: EvaclearGh/EvaclearGh-Website
   branch: main
   # "[skip netlify]" saves your edits without publishing straight away, so a batch of edits
   # costs one deploy. Publish with "Publish website now" in the Staff dashboard (/admin → Website).
