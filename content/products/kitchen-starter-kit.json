@@ -1,16 +1,29 @@
 {
-  "order": 210,
+  "published": true,
+  "name": "Kitchen Starter Kit",
   "id": "kitchen-starter-kit",
   "type": "bundle",
-  "name": "Kitchen Starter Kit",
   "tagline": "The heart of the home",
   "shortDescription": "Liquid soap, multi-surface spray, ultra cleaner and hand soap.",
   "description": "Dishes, counters, cooker and hands — the kitchen essentials in one order.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs"
   ],
   "badge": "Most Loved",
+  "images": [
+    "/images/uploads/Evafresh Kitchen Starter Kit.webp"
+  ],
+  "variants": [
+    {
+      "size": "Kit of 4",
+      "scent": "",
+      "price": 105,
+      "image": "",
+      "id": "ksk"
+    }
+  ],
   "includes": [
     {
       "productId": "multipurpose-liquid-soap",
@@ -33,17 +46,6 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "ksk",
-      "size": "Kit of 4",
-      "price": 105
-    }
-  ],
-  "images": [
-    "/images/photos/real-products-table-1280.webp",
-    "/images/photos/liquid-soap-lemon-range-1280.webp"
-  ],
   "usedFor": [
     "Dishes",
     "Counters",
@@ -53,16 +55,18 @@
   "benefits": [
     "Save vs buying separately"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children. Never mix cleaning products.",
   "faqs": [],
-  "popularity": 3,
-  "dateAdded": "2026-05-01",
   "crossSell": [
     "liquid-soap-bulk-refill"
-  ]
+  ],
+  "order": 210,
+  "popularity": 3,
+  "lineupOrder": null,
+  "dateAdded": "2026-05-01"
 }
