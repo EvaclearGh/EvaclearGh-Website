@@ -1,17 +1,30 @@
 {
-  "order": 250,
+  "published": true,
+  "name": "Wholesaler Starter Pack",
   "id": "wholesaler-starter-pack",
   "type": "bundle",
-  "name": "Wholesaler Starter Pack",
   "tagline": "Stock your shelves",
   "shortDescription": "Fast-selling 1L and 500ml Evafresh products in carton quantities for shops and market traders to resell.",
   "description": "Start selling Evafresh in your shop, kiosk or market stall. This pack brings together our fastest-moving retail sizes in reseller quantities, at a lower price than buying single bottles, so you keep a good margin.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs",
     "business-packs"
   ],
   "badge": "New",
+  "images": [
+    "/images/uploads/Evafresh Wholesaler Starter Pack.webp"
+  ],
+  "variants": [
+    {
+      "size": "42 retail units",
+      "scent": "",
+      "price": 849,
+      "image": "",
+      "id": "wholesaler-starter-pack-pack"
+    }
+  ],
   "includes": [
     {
       "productId": "multipurpose-liquid-soap",
@@ -39,17 +52,6 @@
       "qty": 6
     }
   ],
-  "variants": [
-    {
-      "id": "wholesaler-starter-pack-pack",
-      "size": "42 retail units",
-      "price": 849
-    }
-  ],
-  "images": [
-    "/images/photos/real-products-white-1280.webp",
-    "/images/photos/real-lineup-mixed-1280.webp"
-  ],
   "usedFor": [
     "Shops and supermarkets",
     "Market stalls",
@@ -60,11 +62,11 @@
     "Fast-selling retail sizes",
     "Ask about reseller pricing on repeat orders"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
   "faqs": [
     {
@@ -76,7 +78,9 @@
       "a": "[PLACEHOLDER] Add your recommended retail prices here."
     }
   ],
+  "crossSell": [],
+  "order": 250,
   "popularity": 9,
-  "dateAdded": "2026-10-07",
-  "crossSell": []
+  "lineupOrder": null,
+  "dateAdded": "2026-10-07"
 }
