@@ -1,16 +1,29 @@
 {
-  "order": 270,
+  "published": true,
+  "name": "Family Monthly Bundle",
   "id": "family-monthly-bundle",
   "type": "bundle",
-  "name": "Family Monthly Bundle",
   "tagline": "A month of clean, delivered",
   "shortDescription": "Big-size liquid soap, floor cleaner, softener, bleach and body wash.",
   "description": "One order to cover a busy family home for about a month (estimate — adjust to your experience). Big sizes, big savings.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "bundles"
   ],
   "badge": "",
+  "images": [
+    "/images/uploads/Evafresh Family Monthly Cleaning Bundle.webp"
+  ],
+  "variants": [
+    {
+      "size": "Bundle of 5",
+      "scent": "",
+      "price": 299,
+      "image": "",
+      "id": "fmb"
+    }
+  ],
   "includes": [
     {
       "productId": "multipurpose-liquid-soap",
@@ -38,17 +51,6 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "fmb",
-      "size": "Bundle of 5",
-      "price": 299
-    }
-  ],
-  "images": [
-    "/images/photos/real-products-group-1280.webp",
-    "/images/photos/real-jugs-row-1280.webp"
-  ],
   "usedFor": [
     "Laundry",
     "Dishes",
@@ -59,16 +61,18 @@
     "Biggest savings",
     "Qualifies for free Kumasi delivery"
   ],
-  "ingredients": "See each product's page.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page.",
   "safety": "Keep all products out of reach of children. Never mix cleaning products.",
   "faqs": [],
-  "popularity": 2,
-  "dateAdded": "2026-07-01",
   "crossSell": [
     "pump-dispenser"
-  ]
+  ],
+  "order": 270,
+  "popularity": 2,
+  "lineupOrder": null,
+  "dateAdded": "2026-07-01"
 }
