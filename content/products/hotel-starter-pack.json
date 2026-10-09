@@ -1,17 +1,30 @@
 {
-  "order": 230,
+  "published": true,
+  "name": "Hotel Starter Pack",
   "id": "hotel-starter-pack",
   "type": "bundle",
-  "name": "Hotel Starter Pack",
   "tagline": "Guest-ready rooms, every day",
   "shortDescription": "Body & hand wash, floor, surface and glass cleaners, softener, bleach and air freshener for hotels and guest houses.",
   "description": "Everything housekeeping needs to get guest rooms, bathrooms and linen ready: refill sizes of body & hand wash for guest bathrooms, cleaners for floors, surfaces and mirrors, fabric softener and bleach for linen, and air freshener for rooms and corridors.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs",
     "business-packs"
   ],
   "badge": "New",
+  "images": [
+    "/images/uploads/Evafresh Hotel Starter Cleaning Pack.webp"
+  ],
+  "variants": [
+    {
+      "size": "Pack of 9 items",
+      "scent": "",
+      "price": 749,
+      "image": "",
+      "id": "hotel-starter-pack-pack"
+    }
+  ],
   "includes": [
     {
       "productId": "body-hand-wash",
@@ -49,17 +62,6 @@
       "qty": 2
     }
   ],
-  "variants": [
-    {
-      "id": "hotel-starter-pack-pack",
-      "size": "Pack of 9 items",
-      "price": 749
-    }
-  ],
-  "images": [
-    "/images/photos/body-hand-wash-fragrances-1280.webp",
-    "/images/photos/real-jugs-row-1280.webp"
-  ],
   "usedFor": [
     "Guest bathrooms",
     "Room and corridor floors",
@@ -72,11 +74,11 @@
     "Refill sizes for daily housekeeping",
     "Ask about monthly scheduled delivery"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
   "faqs": [
     {
@@ -88,7 +90,9 @@
       "a": "Yes. Tell us your preferred body & hand wash fragrance when you order."
     }
   ],
+  "crossSell": [],
+  "order": 230,
   "popularity": 7,
-  "dateAdded": "2026-10-07",
-  "crossSell": []
+  "lineupOrder": null,
+  "dateAdded": "2026-10-07"
 }
