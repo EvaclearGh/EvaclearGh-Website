@@ -1,17 +1,30 @@
 {
-  "order": 200,
+  "published": true,
+  "name": "Whole Home Starter Kit",
   "id": "whole-home-starter-kit",
   "type": "bundle",
-  "name": "Whole Home Starter Kit",
   "tagline": "Every room, sorted",
   "shortDescription": "Six Evafresh essentials for kitchen, bathroom, floors and laundry.",
   "description": "Our most complete kit: everything you need to clean every room of your home, in one order, for less than buying separately.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs",
     "best-sellers"
   ],
   "badge": "Best Seller",
+  "images": [
+    "/images/uploads/Evafresh Whole Home Starter Kit.webp"
+  ],
+  "variants": [
+    {
+      "size": "Kit of 6",
+      "scent": "",
+      "price": 135,
+      "image": "",
+      "id": "whsk"
+    }
+  ],
   "includes": [
     {
       "productId": "multipurpose-liquid-soap",
@@ -44,17 +57,6 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "whsk",
-      "size": "Kit of 6",
-      "price": 135
-    }
-  ],
-  "images": [
-    "/images/photos/real-products-grid-1280.webp",
-    "/images/photos/evafresh-lineup-1280.webp"
-  ],
   "usedFor": [
     "Kitchen",
     "Bathroom",
@@ -67,11 +69,11 @@
     "Great housewarming gift",
     "Covers every room"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children. Never mix cleaning products.",
   "faqs": [
     {
@@ -79,10 +81,12 @@
       "a": "Yes — order via WhatsApp and tell us what you'd like to swap."
     }
   ],
-  "popularity": 1,
-  "dateAdded": "2026-05-01",
   "crossSell": [
     "fabric-softener",
     "body-hand-wash"
-  ]
+  ],
+  "order": 200,
+  "popularity": 1,
+  "lineupOrder": null,
+  "dateAdded": "2026-05-01"
 }
