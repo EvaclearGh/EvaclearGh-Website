@@ -1,16 +1,29 @@
 {
-  "order": 280,
+  "published": true,
+  "name": "Bulk Refill Bundle",
   "id": "bulk-refill-bundle",
   "type": "bundle",
-  "name": "Bulk Refill Bundle",
   "tagline": "Stock up and save",
   "shortDescription": "5L jugs of floor cleaner, softener, stain remover and liquid soap.",
   "description": "Four 5L jugs for big households, guest houses and small businesses. Refill your smaller bottles and save.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "bundles"
   ],
   "badge": "",
+  "images": [
+    "/images/uploads/Evafresh Bulk Refill Cleaning Bundle.webp"
+  ],
+  "variants": [
+    {
+      "size": "4 × 5L",
+      "scent": "",
+      "price": 365,
+      "image": "",
+      "id": "brb"
+    }
+  ],
   "includes": [
     {
       "productId": "floor-cleaner",
@@ -33,17 +46,6 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "brb",
-      "size": "4 × 5L",
-      "price": 365
-    }
-  ],
-  "images": [
-    "/images/photos/real-jugs-row-1280.webp",
-    "/images/photos/real-products-white-1280.webp"
-  ],
   "usedFor": [
     "Large households",
     "Guest houses",
@@ -53,16 +55,18 @@
     "Save vs buying separately",
     "Less plastic than many small bottles"
   ],
-  "ingredients": "See each product's page.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page.",
   "safety": "Keep all products out of reach of children. Never mix cleaning products. Stain Remover is corrosive.",
   "faqs": [],
-  "popularity": 5,
-  "dateAdded": "2026-06-01",
   "crossSell": [
     "pump-dispenser"
-  ]
+  ],
+  "order": 280,
+  "popularity": 5,
+  "lineupOrder": null,
+  "dateAdded": "2026-06-01"
 }
