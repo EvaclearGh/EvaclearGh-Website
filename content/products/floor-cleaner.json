@@ -1,41 +1,46 @@
 {
-  "order": 30,
+  "published": true,
+  "name": "Evafresh Floor Cleaner",
   "id": "floor-cleaner",
   "type": "product",
-  "name": "Evafresh Floor Cleaner",
   "tagline": "Clean, shine and protect",
   "shortDescription": "Mops away dirt and leaves tiles and terrazzo fresh and shiny.",
   "description": "Evafresh Floor Cleaner cleans, shines and protects tiles, terrazzo and sealed floors, leaving a fresh scent through the room. Add to a bucket of water and mop.",
   "category": "floor-cleaners",
+  "alsoIn": [],
   "collections": [
     "best-sellers"
   ],
   "badge": "",
-  "variants": [
-    {
-      "id": "fc-1l",
-      "size": "1L",
-      "price": 25,
-      "image": "/images/photos/floor-cleaner-range-1280.webp"
-    },
-    {
-      "id": "fc-2-5l",
-      "size": "2.5L",
-      "price": 55,
-      "image": "/images/photos/floor-cleaner-range-1280.webp"
-    },
-    {
-      "id": "fc-5l",
-      "size": "5L",
-      "price": 100,
-      "image": "/images/photos/floor-cleaner-5l-1280.webp"
-    }
-  ],
   "images": [
     "/images/photos/floor-cleaner-range-1280.webp",
     "/images/photos/floor-cleaner-5l-1280.webp",
     "/images/photos/floor-cleaner-lavender-5l-1280.webp"
   ],
+  "variants": [
+    {
+      "size": "1L",
+      "scent": "",
+      "price": 40,
+      "image": "/images/photos/floor-cleaner-range-1280.webp",
+      "id": "fc-1l"
+    },
+    {
+      "size": "4.5L",
+      "scent": "",
+      "price": 150,
+      "image": "/images/uploads/floor-cleaner-5l-640.webp",
+      "id": "fc-2-5l"
+    },
+    {
+      "size": "25L",
+      "scent": "",
+      "price": 650,
+      "image": "/images/photos/floor-cleaner-5l-1280.webp",
+      "id": "fc-5l"
+    }
+  ],
+  "includes": [],
   "usedFor": [
     "Ceramic and porcelain tiles",
     "Terrazzo floors",
@@ -48,7 +53,6 @@
     "Fresh, long-lasting scent",
     "Economical — a little per bucket"
   ],
-  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
   "howToUse": [
     "Sweep the floor first.",
     "Add Floor Cleaner to a bucket of water.",
@@ -60,6 +64,7 @@
       "ratio": "[PLACEHOLDER] e.g. 1 capful in 5L water"
     }
   ],
+  "ingredients": "[PLACEHOLDER] Add the ingredient list exactly as printed on your label.",
   "safety": "Keep out of reach of children. Floors may be slippery while wet. Do not mix with other cleaning products.",
   "faqs": [
     {
@@ -67,12 +72,13 @@
       "a": "[PLACEHOLDER] Confirm whether your formula needs rinsing."
     }
   ],
-  "popularity": 3,
-  "dateAdded": "2026-03-01",
-  "lineupOrder": 3,
   "crossSell": [
     "multipurpose-liquid-soap",
     "bleach",
     "floor-cleaner-refill"
-  ]
+  ],
+  "order": 30,
+  "popularity": 3,
+  "lineupOrder": 3,
+  "dateAdded": "2026-03-01"
 }
