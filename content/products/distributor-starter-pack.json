@@ -1,17 +1,31 @@
 {
-  "order": 260,
+  "published": true,
+  "name": "Distributor Starter Pack",
   "id": "distributor-starter-pack",
   "type": "bundle",
-  "name": "Distributor Starter Pack",
   "tagline": "Bulk supply for distributors",
   "shortDescription": "25L jerrycans and 5L jugs for distributors and bulk resellers who repack or supply other shops.",
   "description": "Our largest pack, for distributors and bulk resellers. It combines 25L jerrycans of liquid soap and antiseptic with 5L jugs of floor cleaner, fabric softener and bleach: the lowest price per litre we offer. Contact us about distribution areas and volume pricing.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs",
     "business-packs"
   ],
   "badge": "New",
+  "images": [
+    "/images/uploads/EVAFRESH Distributor Starter Pack.webp",
+    "/images/photos/antiseptic-25l-1280.webp"
+  ],
+  "variants": [
+    {
+      "size": "Bulk pack (15 items)",
+      "scent": "",
+      "price": 2290,
+      "image": "",
+      "id": "distributor-starter-pack-pack"
+    }
+  ],
   "includes": [
     {
       "productId": "liquid-soap-bulk-refill",
@@ -39,17 +53,6 @@
       "qty": 4
     }
   ],
-  "variants": [
-    {
-      "id": "distributor-starter-pack-pack",
-      "size": "Bulk pack (15 items)",
-      "price": 2290
-    }
-  ],
-  "images": [
-    "/images/photos/real-jugs-row-1280.webp",
-    "/images/photos/antiseptic-25l-1280.webp"
-  ],
   "usedFor": [
     "Distributors",
     "Bulk resellers",
@@ -60,11 +63,11 @@
     "25L and 5L bulk sizes",
     "Ask about distribution areas and volume pricing"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
   "faqs": [
     {
@@ -76,7 +79,9 @@
       "a": "Yes, to any region. Delivery fees for bulk orders are confirmed when we confirm your order."
     }
   ],
+  "crossSell": [],
+  "order": 260,
   "popularity": 10,
-  "dateAdded": "2026-10-07",
-  "crossSell": []
+  "lineupOrder": null,
+  "dateAdded": "2026-10-07"
 }
