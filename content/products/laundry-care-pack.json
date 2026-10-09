@@ -1,16 +1,29 @@
 {
-  "order": 220,
+  "published": true,
+  "name": "Laundry Care Pack",
   "id": "laundry-care-pack",
   "type": "bundle",
-  "name": "Laundry Care Pack",
   "tagline": "Bright, soft and fresh",
   "shortDescription": "Liquid soap, bleach and fabric softener for laundry day.",
   "description": "Wash with Multipurpose Liquid Soap, brighten whites with Bleach and finish with Afterwash & Fabric Softener.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs"
   ],
   "badge": "",
+  "images": [
+    "/images/uploads/Evafresh Laundry Care Pack Advertisement.webp"
+  ],
+  "variants": [
+    {
+      "size": "Pack of 3",
+      "scent": "",
+      "price": 82,
+      "image": "",
+      "id": "lcp"
+    }
+  ],
   "includes": [
     {
       "productId": "multipurpose-liquid-soap",
@@ -28,33 +41,24 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "lcp",
-      "size": "Pack of 3",
-      "price": 82
-    }
-  ],
-  "images": [
-    "/images/photos/real-lineup-mixed-1280.webp",
-    "/images/photos/fabric-softener-range-2-1280.webp"
-  ],
   "usedFor": [
     "Laundry day"
   ],
   "benefits": [
     "Save vs buying separately"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label. Never mix bleach with other products."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children. Never mix bleach with other products.",
   "faqs": [],
-  "popularity": 4,
-  "dateAdded": "2026-06-01",
   "crossSell": [
     "stain-remover"
-  ]
+  ],
+  "order": 220,
+  "popularity": 4,
+  "lineupOrder": null,
+  "dateAdded": "2026-06-01"
 }
