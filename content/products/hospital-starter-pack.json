@@ -1,17 +1,30 @@
 {
-  "order": 240,
+  "published": true,
+  "name": "Hospital & Clinic Starter Pack",
   "id": "hospital-starter-pack",
   "type": "bundle",
-  "name": "Hospital & Clinic Starter Pack",
   "tagline": "Cleaning essentials for clinics",
   "shortDescription": "Antiseptic disinfectant liquid, bleach, floor and surface cleaners and hand wash for hospitals, clinics and pharmacies.",
   "description": "A bulk cleaning pack for hospitals, clinics, maternity homes and pharmacies: antiseptic disinfectant liquid and bleach for routine cleaning, floor and surface cleaners for wards and corridors, and body & hand wash for staff and patient wash areas. Use alongside your facility's own infection-control procedures.",
   "category": "kits",
+  "alsoIn": [],
   "collections": [
     "starter-packs",
     "business-packs"
   ],
   "badge": "New",
+  "images": [
+    "/images/uploads/EVAFRESH Hospital Starter Pack.webp"
+  ],
+  "variants": [
+    {
+      "size": "Pack of 7 items",
+      "scent": "",
+      "price": 779,
+      "image": "",
+      "id": "hospital-starter-pack-pack"
+    }
+  ],
   "includes": [
     {
       "productId": "antiseptic",
@@ -39,17 +52,6 @@
       "qty": 1
     }
   ],
-  "variants": [
-    {
-      "id": "hospital-starter-pack-pack",
-      "size": "Pack of 7 items",
-      "price": 779
-    }
-  ],
-  "images": [
-    "/images/photos/antiseptic-range-1280.webp",
-    "/images/photos/antiseptic-5l-1280.webp"
-  ],
   "usedFor": [
     "Wards and corridors",
     "Consulting rooms",
@@ -62,11 +64,11 @@
     "Bulk 5L sizes",
     "Ask about monthly scheduled delivery"
   ],
-  "ingredients": "See each product's page for ingredients.",
   "howToUse": [
     "Follow the directions on each product label."
   ],
   "dilution": [],
+  "ingredients": "See each product's page for ingredients.",
   "safety": "Keep all products out of reach of children and unauthorised persons. Never mix cleaning products. Store in a cool, dry place out of direct sunlight.",
   "faqs": [
     {
@@ -78,7 +80,9 @@
       "a": "Yes. We issue invoices and receipts for all business orders."
     }
   ],
+  "crossSell": [],
+  "order": 240,
   "popularity": 8,
-  "dateAdded": "2026-10-07",
-  "crossSell": []
+  "lineupOrder": null,
+  "dateAdded": "2026-10-07"
 }
